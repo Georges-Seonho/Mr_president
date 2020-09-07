@@ -74,6 +74,7 @@ const startGame = () => {
     displayMinistries();
     displayCard();
     displayInfos();
+    console.log(currentCards.length);
 };
 
 const isDone = () => {
@@ -90,8 +91,8 @@ const isDone = () => {
 
 const handleChoice = (evt) => {
     const currentCard = displayCard();
+    console.log(currentCards.length);
     const turnOfEvent = (evt.target === choices.querySelector('.yes')) ? currentCard.yes : currentCard.no;
-    console.log(turnOfEvent);
     playingMinistary.forEach(ministry => {
         for(let i=0; i<playingMinistary.length; i++) {
             if(ministry.name === turnOfEvent[i].impactedMinistry) ministry.happiness = ministry.happiness + turnOfEvent[i].points;
