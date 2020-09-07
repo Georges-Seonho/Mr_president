@@ -9,6 +9,8 @@ body {
     width: 100vw;
     height: 100vh;
     flex-direction: column;
+    align-items: stretch;
+    justify-content: space-between;
 }
 
 .container {
@@ -20,25 +22,36 @@ body {
     align-items: center;
     height: 40px;
     border: solid 1px;
-    margin-bottom: 50px;
 }
 
 #nav > ul {
     width: 80%;
-    justify-content: space-around;
+    justify-content: space-between;
+}
+
+.againBtn {
+    cursor: pointer;
 }
 
 .main {
     justify-content: space-around;
     align-items: center;
-    width: 90%;
+    width: 95%;
+    min-height: 90%;
 }
 
-.ministries {
-    width: 80%;
-    justify-content: space-around;
+#ministries {
+    width: 60%;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
     align-items: center;
     text-align: center;
+    margin: 100px 0;
+}
+
+#ministries > div {
+    max-width: 200px;
+    min-height: 150px;
 }
 
 .icons {
@@ -50,11 +63,23 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
+    font-size: 1.5rem;
+    max-width: 300px;
+}
+
+#cardcontainer > .card {
+    margin-bottom: 60px;
+    height: 50%;
+}
+
+.yes, 
+.no {
+    height: 50px;
+    line-height: 50px;
 }
 
 .choices {
     flex-direction: row;
-    cursor: pointer;merci 
-
+    cursor: pointer;
 }
 
