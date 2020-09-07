@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+    font-family: Helvetica, Arial, sans-serif;
+    list-style: none;
+    margin: 0;
+}
+
+body {
+    width: 100vw;
+    flex-direction: column;
+}
+
+.container {
+    display: flex;
+}
+
+.nav {
+    justify-content: space-around;
+    align-items: center;
+    height: 40px;
+    border: solid 1px;
+    margin-bottom: 50px;
+}
+
+.nav > ul {
+    width: 80%;
+    justify-content: space-around;
+}
+
+.main {
+    justify-content: space-around;
+    align-items: center;
+    width: 90%;
+}
+
+.ministries {
+    width: 60%;
+}
+
+#cardcontainer {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.choices {
+    flex-direction: row;
+}

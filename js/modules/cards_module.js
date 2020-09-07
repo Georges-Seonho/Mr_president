@@ -28,5 +28,3 @@ export const cards = [
 
 ];
 
-
-// module.exports = cards;

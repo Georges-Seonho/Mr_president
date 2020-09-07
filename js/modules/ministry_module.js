@@ -12,4 +12,3 @@ export class Ministry {
     }
 }
 
-// module.exports = Ministry;
