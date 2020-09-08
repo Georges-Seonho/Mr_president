@@ -12,7 +12,8 @@ const cardHTML = cardContainer.querySelector('.card');
 const choices = cardContainer.querySelector('.choices');
 const ministriesContainer = document.getElementById('ministries');
 const gobtn = document.querySelector('.gobtn');
-
+const musicIcon = document.getElementById('musicIcon');
+const timer = document.getElementById('timer')
 
 // Images references
 let armyImg = '../ressources/Phatman_x4.gif';
@@ -45,7 +46,26 @@ const displayChoices = () => {
     displayCard();
 };
 
-const playMusic = () => {} 
+const playMusic = () => {
+    musicIcon.classList.toggle('plop')
+    if(musicIcon.className === 'plop') musicIcon.innerHTML='<img src="./ressources/music0n.gif" alt="music ON gif"><audio autoplay src="./ressources/Pickle Rick! [8 Bit Tribute to Rick and Morty & Chetreo] - 8 Bit Universe.mp3"></audio>';
+    else musicIcon.innerHTML='<img  src="./ressources/musicof.webp" alt="music ON gif">';  
+}; 
+
+
+
+// var timerId = setInterval(countdown, 1000);
+
+function countdown() {
+    let timeLeft = 30;
+    if (timeLeft == -1) {
+        clearTimeout(timerId);
+        doSomething();
+    } else {
+        elem.innerHTML = timeLeft + ' seconds remaining';
+        timeLeft--;
+    }
+}
 
 // Functions 
 const resetGame = () => {
@@ -129,4 +149,4 @@ startGame();
 gobtn.onclick = displayChoices;
 choices.onclick = handleChoice;
 playAgainBtn.onclick = resetGame;
-
+musicIcon.onclick = playMusic;
