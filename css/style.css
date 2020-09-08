@@ -92,6 +92,7 @@ body {
 #cardcontainer > .card {
     margin-bottom: 60px;
     height: 50%;
+    padding: 10px;
 }
 
 .yes, 

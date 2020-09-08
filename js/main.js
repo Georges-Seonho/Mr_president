@@ -19,7 +19,7 @@ const timer = document.getElementById('timer')
 let armyImg = '../ressources/Phatman_x4.gif';
 let socialImg = '../ressources/one.gif';
 let healthImg = '../ressources/death.gif';
-let commerceImg = '../ressources/rich.gif';
+let commerceImg = '../ressources/rich (1).gif';
 let budgetMiImg = '../ressources/PIC.gif';
 let labourImg = '../ressources/mario.gif';
 
@@ -43,6 +43,7 @@ let currentCards = [...cards];
 const displayChoices = () => {
     gobtn.style.display="none";
     choices.innerHTML='<div class="yes">YES</div><div class="no">NO</div>';
+    cardHTML.style.backgroundColor = '#FFF';
     displayCard();
 };
 
@@ -75,6 +76,7 @@ const resetGame = () => {
     currentCards = [...cards];
     gobtn.style.display="";
     choices.innerHTML='';
+    cardHTML.style.backgroundColor = '';
     startGame();
 };
 
