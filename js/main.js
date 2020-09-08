@@ -5,20 +5,22 @@ import { Player } from './modules/player_module.js';
 // HTML GETTERS
 const budgetHTML = document.getElementById('budget');
 const scoreHTML = document.getElementById('score');
+const bestScoreHTML = document.getElementById('bestscore')
 const playAgainBtn = document.querySelector('.againBtn');
 const cardContainer = document.getElementById('cardcontainer');
 const cardHTML = cardContainer.querySelector('.card');
 const choices = cardContainer.querySelector('.choices');
 const ministriesContainer = document.getElementById('ministries');
+const gobtn = document.querySelector('.gobtn');
 
 
 // Images references
-let armyImg = '../ressources/26803260.jpg';
-let socialImg = '../ressources/26803260.jpg';
-let healthImg = '../ressources/26803260.jpg';
-let commerceImg = '../ressources/26803260.jpg';
-let budgetMiImg = '../ressources/26803260.jpg';
-let labourImg = '../ressources/26803260.jpg';
+let armyImg = '../ressources/Phatman_x4.gif';
+let socialImg = '../ressources/one.gif';
+let healthImg = '../ressources/death.gif';
+let commerceImg = '../ressources/rich.gif';
+let budgetMiImg = '../ressources/PIC.gif';
+let labourImg = '../ressources/mario.gif';
 
 
 // Ministeries 
@@ -36,6 +38,14 @@ const playingMinistary = [army, solidarity, health, commerce, budgetMinistry, la
 const currentPlayer = new Player(/*prompt('Enter Your name please')*/ 'lol');
 let currentCards = [...cards];
 
+// Features 
+const displayChoices = () => {
+    gobtn.style.display="none";
+    choices.innerHTML='<div class="yes">YES</div><div class="no">NO</div>';
+    displayCard();
+};
+
+const playMusic = () => {} 
 
 // Functions 
 const resetGame = () => {
@@ -43,14 +53,18 @@ const resetGame = () => {
     currentPlayer.budget = 100000;
     playingMinistary.forEach(ministry => ministry.happiness = 10);
     currentCards = [...cards];
+    gobtn.style.display="";
+    choices.innerHTML='';
     startGame();
 };
 
 const displayInfos = () => {
     scoreHTML.innerHTML = '';
     budgetHTML.innerHTML = '';
+    bestScoreHTML.innerHTML = '';
     scoreHTML.innerHTML += `${currentPlayer.numOfTurn}`;
     budgetHTML.innerHTML += `${currentPlayer.budget}`;
+    bestScoreHTML.innerHTML = `${currentPlayer.bestScore}`;
 }
 
 const displayMinistries = () => {
@@ -62,19 +76,18 @@ const displayMinistries = () => {
 
 const randomNum = Math.floor(Math.random()*currentCards.length);
 const chooseCard = () => currentCards[randomNum];
-
 const displayCard = () => {
-    const currentCard = chooseCard();
+    let currentCard = chooseCard();
     cardHTML.innerHTML = '';
     cardHTML.innerHTML += `<p>${currentCard.content}<br><br> GAIN : ${currentCard.price}$</p>`;
     return currentCard;
 };
+let currentCard = displayCard();
 
 const startGame = () => {
     displayMinistries();
-    displayCard();
     displayInfos();
-    console.log(currentCards.length);
+    cardHTML.innerHTML='<img src="../ressources/president.gif" alt="president making choices" class="logo">';
 };
 
 const isDone = () => {
@@ -89,9 +102,12 @@ const isDone = () => {
     };
 };
 
+const annimateCardContainer = () => {
+    cardContainer.classList.remove('scale-in-ver-center');
+    cardContainer.classList.add('scale-in-ver-center');
+}
+
 const handleChoice = (evt) => {
-    const currentCard = displayCard();
-    console.log(currentCards.length);
     const turnOfEvent = (evt.target === choices.querySelector('.yes')) ? currentCard.yes : currentCard.no;
     playingMinistary.forEach(ministry => {
         for(let i=0; i<playingMinistary.length; i++) {
@@ -101,7 +117,8 @@ const handleChoice = (evt) => {
     if(currentCard.price && turnOfEvent === currentCard.yes) currentPlayer.budget += currentCard.price;
     currentPlayer.numOfTurn += 1;
     currentCards.splice(randomNum, 1);
-    displayCard();
+    annimateCardContainer();
+    currentCard = displayCard();
     displayMinistries();
     displayInfos();
     isDone();
@@ -109,6 +126,7 @@ const handleChoice = (evt) => {
 
 startGame();
 // Event listeners
+gobtn.onclick = displayChoices;
 choices.onclick = handleChoice;
 playAgainBtn.onclick = resetGame;
 

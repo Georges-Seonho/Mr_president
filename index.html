@@ -4,30 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
-    <title>unMANAGABLE ?</title>
+    <title>Mr_President?</title>
     <script src="./js/main.js" type="module"></script>
     <script src="./js/modules/ministry_module.js" type="module"></script>
     <script src="./js/modules/cards_module.js" type="module"></script>
     <script src="./js/modules/player_module.js" type="module"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
 </head>
 <body class="container">
     <div id="nav" class="container">
-        <div id="logo">unMANAGABLE ?</div>
+        <div id="logo">Mr_PRESIDENT</div>
         <ul class="container">
+            <li >Best Score:  <span id="bestscore"></span></li>
             <li >Num Of Round : <span id="score"></span></li>
-            <li >Budget : <span id="budget"></span></li>
             <li class="againBtn"><span>Play again</span></li>
+            <li class="music"><img src="" alt=""></li>
         </ul>
     </div>
+    <aside>Budget : $<span id="budget"></span></aside>
     <div class="main container">
-        <div id="ministries" class="container"></div>
         <div id="cardcontainer" class="container">
             <div class="card"></div>
-            <div class="choices cardcontainer">
-                <div class="yes">Yes</div>
-                <div class="no">No</div>
-            </div>
+            <div class="gobtn"><h1>GO!!</h1></div>
+            <div class="choices cardcontainer"></div>
         </div>
+        <div id="ministries" class="container"></div>
     </div>
 </body>
 </html>
