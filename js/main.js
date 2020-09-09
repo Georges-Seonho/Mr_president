@@ -16,12 +16,12 @@ const musicIcon = document.getElementById('musicIcon');
 const progressBar = document.querySelector('.progress-bar');
 
 // Images references
-let armyImg = '../ressources/Phatman_x4.gif';
-let socialImg = '../ressources/one.gif';
-let healthImg = '../ressources/death.gif';
-let commerceImg = '../ressources/rich (1).gif';
-let budgetMiImg = '../ressources/PIC.gif';
-let labourImg = '../ressources/mario.gif';
+let armyImg = './ressources/Phatman_x4.gif';
+let socialImg = './ressources/one.gif';
+let healthImg = './ressources/death.gif';
+let commerceImg = './ressources/rich (1).gif';
+let budgetMiImg = './ressources/PIC.gif';
+let labourImg = './ressources/mario.gif';
 
 
 // Ministeries 
