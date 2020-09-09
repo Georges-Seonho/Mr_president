@@ -13,7 +13,7 @@ const choices = cardContainer.querySelector('.choices');
 const ministriesContainer = document.getElementById('ministries');
 const gobtn = document.querySelector('.gobtn');
 const musicIcon = document.getElementById('musicIcon');
-const timer = document.getElementById('timer')
+const timer = document.getElementById('timer');
 
 // Images references
 let armyImg = '../ressources/Phatman_x4.gif';
@@ -48,25 +48,10 @@ const displayChoices = () => {
 };
 
 const playMusic = () => {
-    musicIcon.classList.toggle('plop')
+    musicIcon.classList.toggle('plop');
     if(musicIcon.className === 'plop') musicIcon.innerHTML='<img src="./ressources/music0n.gif" alt="music ON gif"><audio autoplay src="./ressources/Pickle Rick! [8 Bit Tribute to Rick and Morty & Chetreo] - 8 Bit Universe.mp3"></audio>';
     else musicIcon.innerHTML='<img  src="./ressources/musicof.webp" alt="music ON gif">';  
 }; 
-
-
-
-// var timerId = setInterval(countdown, 1000);
-
-function countdown() {
-    let timeLeft = 30;
-    if (timeLeft == -1) {
-        clearTimeout(timerId);
-        doSomething();
-    } else {
-        elem.innerHTML = timeLeft + ' seconds remaining';
-        timeLeft--;
-    }
-}
 
 // Functions 
 const resetGame = () => {
@@ -87,13 +72,15 @@ const displayInfos = () => {
     scoreHTML.innerHTML += `${currentPlayer.numOfTurn}`;
     budgetHTML.innerHTML += `${currentPlayer.budget}`;
     bestScoreHTML.innerHTML = `${currentPlayer.bestScore}`;
-}
+};
 
 const displayMinistries = () => {
     ministriesContainer.innerHTML = '';
     playingMinistary.forEach(ministry => {
-        ministriesContainer.innerHTML += `<div><img src="${ministry.icon}" class="icons" ><h3>${ministry.name}</h3><p>${ministry.happiness}</p></div>` ;
-    });   
+        ministriesContainer.innerHTML += `<div class="ministry"><img src="${ministry.icon}" class="icons" ><h3>${ministry.name}</h3><p>${ministry.happiness}</p></div>` ;
+    }); 
+    let ministriesCards = ministriesContainer.querySelectorAll('.ministry');
+    playingMinistary.forEach((ministry, i) => (ministry.happiness <= 3) ? ministriesCards[i].classList.add('vibrate-2') : ministriesCards[i].classList.remove('vibrate-2'));
 };
 
 const randomNum = Math.floor(Math.random()*currentCards.length);
@@ -124,22 +111,28 @@ const isDone = () => {
     };
 };
 
-const annimateCardContainer = () => {
-    cardContainer.classList.remove('scale-in-ver-center');
-    cardContainer.classList.add('scale-in-ver-center');
+// var timerId = setInterval(countdown, 1000);
+
+function countdown() {
+    let timeLeft = 30;
+    if (timeLeft == -1) {
+        clearTimeout(timerId);
+        doSomething();
+    } else {
+        elem.innerHTML = timeLeft + ' seconds remaining';
+        timeLeft--;
+    }
 }
 
 const handleChoice = (evt) => {
     const turnOfEvent = (evt.target === choices.querySelector('.yes')) ? currentCard.yes : currentCard.no;
+    const ministriesCards = ministriesContainer.querySelectorAll('.ministry');
     playingMinistary.forEach(ministry => {
-        for(let i=0; i<playingMinistary.length; i++) {
-            if(ministry.name === turnOfEvent[i].impactedMinistry) ministry.happiness = ministry.happiness + turnOfEvent[i].points;
-        }
+        for(let i=0; i<playingMinistary.length; i++) if(ministry.name === turnOfEvent[i].impactedMinistry) ministry.happiness += turnOfEvent[i].points;
     });
     if(currentCard.price && turnOfEvent === currentCard.yes) currentPlayer.budget += currentCard.price;
     currentPlayer.numOfTurn += 1;
     currentCards.splice(randomNum, 1);
-    annimateCardContainer();
     currentCard = displayCard();
     displayMinistries();
     displayInfos();
