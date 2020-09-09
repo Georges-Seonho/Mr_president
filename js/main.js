@@ -37,7 +37,7 @@ const playingMinistary = [army, solidarity, health, commerce, budgetMinistry, la
 
 
 //INFOS
-const currentPlayer = new Player(prompt('Enter Your last name please :'));
+const currentPlayer = new Player(/*prompt('Enter Your last name please :')*/ 'plop');
 logoName.innerText += ` ${currentPlayer.name}`;
 let currentCards = [...cards];
 
