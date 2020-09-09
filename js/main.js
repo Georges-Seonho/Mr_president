@@ -3,6 +3,7 @@ import { cards } from './modules/cards_module.js';
 import { Player } from './modules/player_module.js';
 
 // HTML GETTERS
+const logoName = document.getElementById('logo');
 const budgetHTML = document.getElementById('budget');
 const scoreHTML = document.getElementById('score');
 const bestScoreHTML = document.getElementById('bestscore')
@@ -36,7 +37,8 @@ const playingMinistary = [army, solidarity, health, commerce, budgetMinistry, la
 
 
 //INFOS
-const currentPlayer = new Player(/*prompt('Enter Your name please')*/ 'lol');
+const currentPlayer = new Player(prompt('Enter Your last name please :'));
+logoName.innerText += ` ${currentPlayer.name}`;
 let currentCards = [...cards];
 
 // Features 
