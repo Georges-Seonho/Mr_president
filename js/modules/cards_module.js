@@ -5,54 +5,54 @@ export const cards = [
         yes: 
             [
                 {
-                    impactedMinistry: 'Secretary of Defense', 
+                    impactedMinistry: ' Defense', 
                     points: +3
                 },
                 {
-                    impactedMinistry: 'Secretary of Education', 
+                    impactedMinistry: ' Education', 
                     points: -3
                 },
                 {
-                    impactedMinistry: 'Secretary of Health and Human Services', 
+                    impactedMinistry: ' Health and Human Services', 
                     points: -3
                 },
                 {
-                    impactedMinistry: 'Secretary of Commerce', 
+                    impactedMinistry: ' Commerce', 
                     points: +2
                 },
                 {
-                    impactedMinistry: 'Office of Management and Budget', 
+                    impactedMinistry: ' Management and Budget', 
                     points: +3
                 },
                 {
-                    impactedMinistry: 'Secretary of Labor', 
+                    impactedMinistry: ' Labor', 
                     points: +3
                 },
             ],
         no: 
             [
                 {
-                    impactedMinistry: 'Secretary of Defense', 
+                    impactedMinistry: ' Defense', 
                     points: -3
                 },
                 {
-                    impactedMinistry: 'Secretary of Education', 
+                    impactedMinistry: ' Education', 
                     points: +3
                 },
                 {
-                    impactedMinistry: 'Secretary of Health and Human Services', 
+                    impactedMinistry: ' Health and Human Services', 
                     points: +3
                 },
                 {
-                    impactedMinistry: 'Secretary of Commerce', 
+                    impactedMinistry: ' Commerce', 
                     points: +3
                 },
                 {
-                    impactedMinistry: 'Office of Management and Budget', 
+                    impactedMinistry: ' Management and Budget', 
                     points: +3
                 },
                 {
-                    impactedMinistry: 'Secretary of Labor', 
+                    impactedMinistry: ' Labor', 
                     points: +3
                 },
             ],
@@ -63,54 +63,54 @@ export const cards = [
     yes: 
         [
             {
-                impactedMinistry: 'Secretary of Defense', 
+                impactedMinistry: ' Defense', 
                 points: +1
             },
             {
-                impactedMinistry: 'Secretary of Education', 
+                impactedMinistry: ' Education', 
                 points: +3
             },
             {
-                impactedMinistry: 'Secretary of Health and Human Services', 
+                impactedMinistry: ' Health and Human Services', 
                 points: +2
             },
             {
-                impactedMinistry: 'Secretary of Commerce', 
+                impactedMinistry: ' Commerce', 
                 points: -3
             },
             {
-                impactedMinistry: 'Office of Management and Budget', 
+                impactedMinistry: ' Management and Budget', 
                 points: -3
             },
             {
-                impactedMinistry: 'Secretary of Labor', 
+                impactedMinistry: ' Labor', 
                 points: +1
             },
         ],
     no: 
         [
             {
-                impactedMinistry: 'Secretary of Defense', 
+                impactedMinistry: ' Defense', 
                 points: -1
             },
             {
-                impactedMinistry: 'Secretary of Education', 
+                impactedMinistry: ' Education', 
                 points: -3
             },
             {
-                impactedMinistry: 'Secretary of Health and Human Services', 
+                impactedMinistry: ' Health and Human Services', 
                 points: -2
             },
             {
-                impactedMinistry: 'Secretary of Commerce', 
+                impactedMinistry: ' Commerce', 
                 points: +3
             },
             {
-                impactedMinistry: 'Office of Management and Budget', 
+                impactedMinistry: ' Management and Budget', 
                 points: +2
             },
             {
-                impactedMinistry: 'Secretary of Labor', 
+                impactedMinistry: ' Labor', 
                 points: +0
             },
         ],
@@ -121,54 +121,54 @@ export const cards = [
         yes: 
             [
                 {
-                    impactedMinistry: 'Secretary of Defense', 
+                    impactedMinistry: ' Defense', 
                     points: +2
                 },
                 {
-                    impactedMinistry: 'Secretary of Education', 
+                    impactedMinistry: ' Education', 
                     points: +1
                 },
                 {
-                    impactedMinistry: 'Secretary of Health and Human Services', 
+                    impactedMinistry: ' Health and Human Services', 
                     points: -1
                 },
                 {
-                    impactedMinistry: 'Secretary of Commerce', 
+                    impactedMinistry: ' Commerce', 
                     points: +2
                 },
                 {
-                    impactedMinistry: 'Office of Management and Budget', 
+                    impactedMinistry: ' Management and Budget', 
                     points: -1
                 },
                 {
-                    impactedMinistry: 'Secretary of Labor', 
+                    impactedMinistry: ' Labor', 
                     points: +1
                 },
             ],
         no: 
             [
                 {
-                    impactedMinistry: 'Secretary of Defense', 
+                    impactedMinistry: ' Defense', 
                     points: -2
                 },
                 {
-                    impactedMinistry: 'Secretary of Education', 
+                    impactedMinistry: ' Education', 
                     points: +1
                 },
                 {
-                    impactedMinistry: 'Secretary of Health and Human Services', 
+                    impactedMinistry: ' Health and Human Services', 
                     points: +1
                 },
                 {
-                    impactedMinistry: 'Secretary of Commerce', 
+                    impactedMinistry: ' Commerce', 
                     points: 0
                 },
                 {
-                    impactedMinistry: 'Office of Management and Budget', 
+                    impactedMinistry: ' Management and Budget', 
                     points: +1
                 },
                 {
-                    impactedMinistry: 'Secretary of Labor', 
+                    impactedMinistry: ' Labor', 
                     points: +1
                 },
             ],
@@ -179,54 +179,54 @@ export const cards = [
         yes: 
             [
                 {
-                    impactedMinistry: 'Secretary of Defense', 
+                    impactedMinistry: ' Defense', 
                     points: +1
                 },
                 {
-                    impactedMinistry: 'Secretary of Education', 
+                    impactedMinistry: ' Education', 
                     points: +1
                 },
                 {
-                    impactedMinistry: 'Secretary of Health and Human Services', 
+                    impactedMinistry: ' Health and Human Services', 
                     points: +1
                 },
                 {
-                    impactedMinistry: 'Secretary of Commerce', 
+                    impactedMinistry: ' Commerce', 
                     points: +1
                 },
                 {
-                    impactedMinistry: 'Office of Management and Budget', 
+                    impactedMinistry: ' Management and Budget', 
                     points: +1
                 },
                 {
-                    impactedMinistry: 'Secretary of Labor', 
+                    impactedMinistry: ' Labor', 
                     points: +1
                 },
             ],
         no: 
             [
                 {
-                    impactedMinistry: 'Secretary of Defense', 
+                    impactedMinistry: ' Defense', 
                     points: -1
                 },
                 {
-                    impactedMinistry: 'Secretary of Education', 
+                    impactedMinistry: ' Education', 
                     points: -1
                 },
                 {
-                    impactedMinistry: 'Secretary of Health and Human Services', 
+                    impactedMinistry: ' Health and Human Services', 
                     points: -1
                 },
                 {
-                    impactedMinistry: 'Secretary of Commerce', 
+                    impactedMinistry: ' Commerce', 
                     points: -1
                 },
                 {
-                    impactedMinistry: 'Office of Management and Budget', 
+                    impactedMinistry: ' Management and Budget', 
                     points: -1
                 },
                 {
-                    impactedMinistry: 'Secretary of Labor', 
+                    impactedMinistry: ' Labor', 
                     points: -1
                 },
             ],
@@ -237,54 +237,54 @@ export const cards = [
         yes: 
             [
                 {
-                    impactedMinistry: 'Secretary of Defense', 
+                    impactedMinistry: ' Defense', 
                     points: +1
                 },
                 {
-                    impactedMinistry: 'Secretary of Education', 
+                    impactedMinistry: ' Education', 
                     points: -3
                 },
                 {
-                    impactedMinistry: 'Secretary of Health and Human Services', 
+                    impactedMinistry: ' Health and Human Services', 
                     points: -3
                 },
                 {
-                    impactedMinistry: 'Secretary of Commerce', 
+                    impactedMinistry: ' Commerce', 
                     points: +3
                 },
                 {
-                    impactedMinistry: 'Office of Management and Budget', 
+                    impactedMinistry: ' Management and Budget', 
                     points: +3
                 },
                 {
-                    impactedMinistry: 'Secretary of Labor', 
+                    impactedMinistry: ' Labor', 
                     points: -1
                 },
             ],
         no: 
             [
                 {
-                    impactedMinistry: 'Secretary of Defense', 
+                    impactedMinistry: ' Defense', 
                     points: 0
                 },
                 {
-                    impactedMinistry: 'Secretary of Education', 
+                    impactedMinistry: ' Education', 
                     points: +3
                 },
                 {
-                    impactedMinistry: 'Secretary of Health and Human Services', 
+                    impactedMinistry: ' Health and Human Services', 
                     points: +2
                 },
                 {
-                    impactedMinistry: 'Secretary of Commerce', 
+                    impactedMinistry: ' Commerce', 
                     points: -2
                 },
                 {
-                    impactedMinistry: 'Office of Management and Budget', 
+                    impactedMinistry: ' Management and Budget', 
                     points: -3
                 },
                 {
-                    impactedMinistry: 'Secretary of Labor', 
+                    impactedMinistry: ' Labor', 
                     points: +1
                 },
             ],
@@ -295,54 +295,54 @@ export const cards = [
         yes: 
             [
                 {
-                    impactedMinistry: 'Secretary of Defense', 
+                    impactedMinistry: ' Defense', 
                     points: +3
                 },
                 {
-                    impactedMinistry: 'Secretary of Education', 
+                    impactedMinistry: ' Education', 
                     points: -3
                 },
                 {
-                    impactedMinistry: 'Secretary of Health and Human Services', 
+                    impactedMinistry: ' Health and Human Services', 
                     points: +1
                 },
                 {
-                    impactedMinistry: 'Secretary of Commerce', 
+                    impactedMinistry: ' Commerce', 
                     points: +3
                 },
                 {
-                    impactedMinistry: 'Office of Management and Budget', 
+                    impactedMinistry: ' Management and Budget', 
                     points: +3
                 },
                 {
-                    impactedMinistry: 'Secretary of Labor', 
+                    impactedMinistry: ' Labor', 
                     points: +3
                 },
             ],
         no: 
             [
                 {
-                    impactedMinistry: 'Secretary of Defense', 
+                    impactedMinistry: ' Defense', 
                     points: -3
                 },
                 {
-                    impactedMinistry: 'Secretary of Education', 
+                    impactedMinistry: ' Education', 
                     points: +3
                 },
                 {
-                    impactedMinistry: 'Secretary of Health and Human Services', 
+                    impactedMinistry: ' Health and Human Services', 
                     points: +1
                 },
                 {
-                    impactedMinistry: 'Secretary of Commerce', 
+                    impactedMinistry: ' Commerce', 
                     points: -2
                 },
                 {
-                    impactedMinistry: 'Office of Management and Budget', 
+                    impactedMinistry: ' Management and Budget', 
                     points: -1
                 },
                 {
-                    impactedMinistry: 'Secretary of Labor', 
+                    impactedMinistry: ' Labor', 
                     points: -2
                 },
             ],
@@ -353,54 +353,54 @@ export const cards = [
         yes: 
             [
                 {
-                    impactedMinistry: 'Secretary of Defense', 
+                    impactedMinistry: ' Defense', 
                     points: -1
                 },
                 {
-                    impactedMinistry: 'Secretary of Education', 
+                    impactedMinistry: ' Education', 
                     points: +2
                 },
                 {
-                    impactedMinistry: 'Secretary of Health and Human Services', 
+                    impactedMinistry: ' Health and Human Services', 
                     points: +3
                 },
                 {
-                    impactedMinistry: 'Secretary of Commerce', 
+                    impactedMinistry: ' Commerce', 
                     points: -3
                 },
                 {
-                    impactedMinistry: 'Office of Management and Budget', 
+                    impactedMinistry: ' Management and Budget', 
                     points: -3
                 },
                 {
-                    impactedMinistry: 'Secretary of Labor', 
+                    impactedMinistry: ' Labor', 
                     points: +3
                 },
             ],
         no: 
             [
                 {
-                    impactedMinistry: 'Secretary of Defense', 
+                    impactedMinistry: ' Defense', 
                     points: -1
                 },
                 {
-                    impactedMinistry: 'Secretary of Education', 
+                    impactedMinistry: ' Education', 
                     points: -2
                 },
                 {
-                    impactedMinistry: 'Secretary of Health and Human Services', 
+                    impactedMinistry: ' Health and Human Services', 
                     points: -3
                 },
                 {
-                    impactedMinistry: 'Secretary of Commerce', 
+                    impactedMinistry: ' Commerce', 
                     points: +3
                 },
                 {
-                    impactedMinistry: 'Office of Management and Budget', 
+                    impactedMinistry: ' Management and Budget', 
                     points: +2
                 },
                 {
-                    impactedMinistry: 'Secretary of Labor', 
+                    impactedMinistry: ' Labor', 
                     points: +2
                 },
             ],
@@ -411,54 +411,54 @@ export const cards = [
         yes: 
             [
                 {
-                    impactedMinistry: 'Secretary of Defense', 
+                    impactedMinistry: ' Defense', 
                     points: +1
                 },
                 {
-                    impactedMinistry: 'Secretary of Education', 
+                    impactedMinistry: ' Education', 
                     points: -3
                 },
                 {
-                    impactedMinistry: 'Secretary of Health and Human Services', 
+                    impactedMinistry: ' Health and Human Services', 
                     points: -3
                 },
                 {
-                    impactedMinistry: 'Secretary of Commerce', 
+                    impactedMinistry: ' Commerce', 
                     points: +3
                 },
                 {
-                    impactedMinistry: 'Office of Management and Budget', 
+                    impactedMinistry: ' Management and Budget', 
                     points: +1
                 },
                 {
-                    impactedMinistry: 'Secretary of Labor', 
+                    impactedMinistry: ' Labor', 
                     points: -3
                 },
             ],
         no: 
             [
                 {
-                    impactedMinistry: 'Secretary of Defense', 
+                    impactedMinistry: ' Defense', 
                     points: +1
                 },
                 {
-                    impactedMinistry: 'Secretary of Education', 
+                    impactedMinistry: ' Education', 
                     points: +1
                 },
                 {
-                    impactedMinistry: 'Secretary of Health and Human Services', 
+                    impactedMinistry: ' Health and Human Services', 
                     points: +1
                 },
                 {
-                    impactedMinistry: 'Secretary of Commerce', 
+                    impactedMinistry: ' Commerce', 
                     points: -3
                 },
                 {
-                    impactedMinistry: 'Office of Management and Budget', 
+                    impactedMinistry: ' Management and Budget', 
                     points: -1
                 },
                 {
-                    impactedMinistry: 'Secretary of Labor', 
+                    impactedMinistry: ' Labor', 
                     points: +2
                 },
             ],
@@ -469,54 +469,54 @@ export const cards = [
         yes: 
             [
                 {
-                    impactedMinistry: 'Secretary of Defense', 
+                    impactedMinistry: ' Defense', 
                     points: -3
                 },
                 {
-                    impactedMinistry: 'Secretary of Education', 
+                    impactedMinistry: ' Education', 
                     points: +3
                 },
                 {
-                    impactedMinistry: 'Secretary of Health and Human Services', 
+                    impactedMinistry: ' Health and Human Services', 
                     points: -3
                 },
                 {
-                    impactedMinistry: 'Secretary of Commerce', 
+                    impactedMinistry: ' Commerce', 
                     points: +3
                 },
                 {
-                    impactedMinistry: 'Office of Management and Budget', 
+                    impactedMinistry: ' Management and Budget', 
                     points: +1
                 },
                 {
-                    impactedMinistry: 'Secretary of Labor', 
+                    impactedMinistry: ' Labor', 
                     points: -2
                 },
             ],
         no: 
             [
                 {
-                    impactedMinistry: 'Secretary of Defense', 
+                    impactedMinistry: ' Defense', 
                     points: +2
                 },
                 {
-                    impactedMinistry: 'Secretary of Education', 
+                    impactedMinistry: ' Education', 
                     points: -2
                 },
                 {
-                    impactedMinistry: 'Secretary of Health and Human Services', 
+                    impactedMinistry: ' Health and Human Services', 
                     points: +2
                 },
                 {
-                    impactedMinistry: 'Secretary of Commerce', 
+                    impactedMinistry: ' Commerce', 
                     points: -3
                 },
                 {
-                    impactedMinistry: 'Office of Management and Budget', 
+                    impactedMinistry: ' Management and Budget', 
                     points: -1
                 },
                 {
-                    impactedMinistry: 'Secretary of Labor', 
+                    impactedMinistry: ' Labor', 
                     points: +2
                 },
             ],
@@ -527,54 +527,54 @@ export const cards = [
         yes: 
             [
                 {
-                    impactedMinistry: 'Secretary of Defense', 
+                    impactedMinistry: ' Defense', 
                     points: 0
                 },
                 {
-                    impactedMinistry: 'Secretary of Education', 
+                    impactedMinistry: ' Education', 
                     points: +2
                 },
                 {
-                    impactedMinistry: 'Secretary of Health and Human Services', 
+                    impactedMinistry: ' Health and Human Services', 
                     points: +2
                 },
                 {
-                    impactedMinistry: 'Secretary of Commerce', 
+                    impactedMinistry: ' Commerce', 
                     points: -2
                 },
                 {
-                    impactedMinistry: 'Office of Management and Budget', 
+                    impactedMinistry: ' Management and Budget', 
                     points: -1
                 },
                 {
-                    impactedMinistry: 'Secretary of Labor', 
+                    impactedMinistry: ' Labor', 
                     points: +2
                 },
             ],
         no: 
             [
                 {
-                    impactedMinistry: 'Secretary of Defense', 
+                    impactedMinistry: ' Defense', 
                     points: 0
                 },
                 {
-                    impactedMinistry: 'Secretary of Education', 
+                    impactedMinistry: ' Education', 
                     points: -2
                 },
                 {
-                    impactedMinistry: 'Secretary of Health and Human Services', 
+                    impactedMinistry: ' Health and Human Services', 
                     points: -2
                 },
                 {
-                    impactedMinistry: 'Secretary of Commerce', 
+                    impactedMinistry: ' Commerce', 
                     points: -1
                 },
                 {
-                    impactedMinistry: 'Office of Management and Budget', 
+                    impactedMinistry: ' Management and Budget', 
                     points: +1
                 },
                 {
-                    impactedMinistry: 'Secretary of Labor', 
+                    impactedMinistry: ' Labor', 
                     points: -2
                 },
             ],
@@ -585,54 +585,54 @@ export const cards = [
         yes: 
             [
                 {
-                    impactedMinistry: 'Secretary of Defense', 
+                    impactedMinistry: ' Defense', 
                     points: +1
                 },
                 {
-                    impactedMinistry: 'Secretary of Education', 
+                    impactedMinistry: ' Education', 
                     points: +2
                 },
                 {
-                    impactedMinistry: 'Secretary of Health and Human Services', 
+                    impactedMinistry: ' Health and Human Services', 
                     points: -3
                 },
                 {
-                    impactedMinistry: 'Secretary of Commerce', 
+                    impactedMinistry: ' Commerce', 
                     points: -2
                 },
                 {
-                    impactedMinistry: 'Office of Management and Budget', 
+                    impactedMinistry: ' Management and Budget', 
                     points: -1
                 },
                 {
-                    impactedMinistry: 'Secretary of Labor', 
+                    impactedMinistry: ' Labor', 
                     points: -3
                 },
             ],
         no: 
             [
                 {
-                    impactedMinistry: 'Secretary of Defense', 
+                    impactedMinistry: ' Defense', 
                     points: 0
                 },
                 {
-                    impactedMinistry: 'Secretary of Education', 
+                    impactedMinistry: ' Education', 
                     points: -2
                 },
                 {
-                    impactedMinistry: 'Secretary of Health and Human Services', 
+                    impactedMinistry: ' Health and Human Services', 
                     points: -3
                 },
                 {
-                    impactedMinistry: 'Secretary of Commerce', 
+                    impactedMinistry: ' Commerce', 
                     points: +2
                 },
                 {
-                    impactedMinistry: 'Office of Management and Budget', 
+                    impactedMinistry: ' Management and Budget', 
                     points: +1
                 },
                 {
-                    impactedMinistry: 'Secretary of Labor', 
+                    impactedMinistry: ' Labor', 
                     points: +1
                 },
             ],
@@ -643,54 +643,54 @@ export const cards = [
         yes: 
             [
                 {
-                    impactedMinistry: 'Secretary of Defense', 
+                    impactedMinistry: ' Defense', 
                     points:-3
                 },
                 {
-                    impactedMinistry: 'Secretary of Education', 
+                    impactedMinistry: ' Education', 
                     points: -3
                 },
                 {
-                    impactedMinistry: 'Secretary of Health and Human Services', 
+                    impactedMinistry: ' Health and Human Services', 
                     points: -3
                 },
                 {
-                    impactedMinistry: 'Secretary of Commerce', 
+                    impactedMinistry: ' Commerce', 
                     points: -3
                 },
                 {
-                    impactedMinistry: 'Office of Management and Budget', 
+                    impactedMinistry: ' Management and Budget', 
                     points: -3
                 },
                 {
-                    impactedMinistry: 'Secretary of Labor', 
+                    impactedMinistry: ' Labor', 
                     points: -3
                 },
             ],
         no: 
             [
                 {
-                    impactedMinistry: 'Secretary of Defense', 
+                    impactedMinistry: ' Defense', 
                     points:+1
                 },
                 {
-                    impactedMinistry: 'Secretary of Education', 
+                    impactedMinistry: ' Education', 
                     points: +1
                 },
                 {
-                    impactedMinistry: 'Secretary of Health and Human Services', 
+                    impactedMinistry: ' Health and Human Services', 
                     points: +1
                 },
                 {
-                    impactedMinistry: 'Secretary of Commerce', 
+                    impactedMinistry: ' Commerce', 
                     points: +1
                 },
                 {
-                    impactedMinistry: 'Office of Management and Budget', 
+                    impactedMinistry: ' Management and Budget', 
                     points: +1
                 },
                 {
-                    impactedMinistry: 'Secretary of Labor', 
+                    impactedMinistry: ' Labor', 
                     points: +1
                 },
             ],
@@ -701,54 +701,54 @@ export const cards = [
         yes: 
             [
                 {
-                    impactedMinistry: 'Secretary of Defense', 
+                    impactedMinistry: ' Defense', 
                     points: 0
                 },
                 {
-                    impactedMinistry: 'Secretary of Education', 
+                    impactedMinistry: ' Education', 
                     points: +2
                 },
                 {
-                    impactedMinistry: 'Secretary of Health and Human Services', 
+                    impactedMinistry: ' Health and Human Services', 
                     points: +2
                 },
                 {
-                    impactedMinistry: 'Secretary of Commerce', 
+                    impactedMinistry: ' Commerce', 
                     points: -2
                 },
                 {
-                    impactedMinistry: 'Office of Management and Budget', 
+                    impactedMinistry: ' Management and Budget', 
                     points: -1
                 },
                 {
-                    impactedMinistry: 'Secretary of Labor', 
+                    impactedMinistry: ' Labor', 
                     points: +2
                 },
             ],
         no: 
             [
                 {
-                    impactedMinistry: 'Secretary of Defense', 
+                    impactedMinistry: ' Defense', 
                     points: 0
                 },
                 {
-                    impactedMinistry: 'Secretary of Education', 
+                    impactedMinistry: ' Education', 
                     points: -2
                 },
                 {
-                    impactedMinistry: 'Secretary of Health and Human Services', 
+                    impactedMinistry: ' Health and Human Services', 
                     points: -2
                 },
                 {
-                    impactedMinistry: 'Secretary of Commerce', 
+                    impactedMinistry: ' Commerce', 
                     points: -1
                 },
                 {
-                    impactedMinistry: 'Office of Management and Budget', 
+                    impactedMinistry: ' Management and Budget', 
                     points: +1
                 },
                 {
-                    impactedMinistry: 'Secretary of Labor', 
+                    impactedMinistry: ' Labor', 
                     points: -2
                 },
             ],
@@ -759,54 +759,54 @@ export const cards = [
         yes: 
             [
                 {
-                    impactedMinistry: 'Secretary of Defense', 
+                    impactedMinistry: ' Defense', 
                     points: 0
                 },
                 {
-                    impactedMinistry: 'Secretary of Education', 
+                    impactedMinistry: ' Education', 
                     points: +2
                 },
                 {
-                    impactedMinistry: 'Secretary of Health and Human Services', 
+                    impactedMinistry: ' Health and Human Services', 
                     points: +2
                 },
                 {
-                    impactedMinistry: 'Secretary of Commerce', 
+                    impactedMinistry: ' Commerce', 
                     points: -2
                 },
                 {
-                    impactedMinistry: 'Office of Management and Budget', 
+                    impactedMinistry: ' Management and Budget', 
                     points: -1
                 },
                 {
-                    impactedMinistry: 'Secretary of Labor', 
+                    impactedMinistry: ' Labor', 
                     points: +2
                 },
             ],
         no: 
             [
                 {
-                    impactedMinistry: 'Secretary of Defense', 
+                    impactedMinistry: ' Defense', 
                     points: 0
                 },
                 {
-                    impactedMinistry: 'Secretary of Education', 
+                    impactedMinistry: ' Education', 
                     points: -2
                 },
                 {
-                    impactedMinistry: 'Secretary of Health and Human Services', 
+                    impactedMinistry: ' Health and Human Services', 
                     points: -2
                 },
                 {
-                    impactedMinistry: 'Secretary of Commerce', 
+                    impactedMinistry: ' Commerce', 
                     points: -1
                 },
                 {
-                    impactedMinistry: 'Office of Management and Budget', 
+                    impactedMinistry: ' Management and Budget', 
                     points: +1
                 },
                 {
-                    impactedMinistry: 'Secretary of Labor', 
+                    impactedMinistry: ' Labor', 
                     points: -2
                 },
             ],
@@ -817,54 +817,54 @@ export const cards = [
         yes: 
             [
                 {
-                    impactedMinistry: 'Secretary of Defense', 
+                    impactedMinistry: ' Defense', 
                     points: 0
                 },
                 {
-                    impactedMinistry: 'Secretary of Education', 
+                    impactedMinistry: ' Education', 
                     points: +2
                 },
                 {
-                    impactedMinistry: 'Secretary of Health and Human Services', 
+                    impactedMinistry: ' Health and Human Services', 
                     points: +2
                 },
                 {
-                    impactedMinistry: 'Secretary of Commerce', 
+                    impactedMinistry: ' Commerce', 
                     points: -2
                 },
                 {
-                    impactedMinistry: 'Office of Management and Budget', 
+                    impactedMinistry: ' Management and Budget', 
                     points: -1
                 },
                 {
-                    impactedMinistry: 'Secretary of Labor', 
+                    impactedMinistry: ' Labor', 
                     points: +2
                 },
             ],
         no: 
             [
                 {
-                    impactedMinistry: 'Secretary of Defense', 
+                    impactedMinistry: ' Defense', 
                     points: 0
                 },
                 {
-                    impactedMinistry: 'Secretary of Education', 
+                    impactedMinistry: ' Education', 
                     points: -2
                 },
                 {
-                    impactedMinistry: 'Secretary of Health and Human Services', 
+                    impactedMinistry: ' Health and Human Services', 
                     points: -2
                 },
                 {
-                    impactedMinistry: 'Secretary of Commerce', 
+                    impactedMinistry: ' Commerce', 
                     points: -1
                 },
                 {
-                    impactedMinistry: 'Office of Management and Budget', 
+                    impactedMinistry: ' Management and Budget', 
                     points: +1
                 },
                 {
-                    impactedMinistry: 'Secretary of Labor', 
+                    impactedMinistry: ' Labor', 
                     points: -2
                 },
             ],
@@ -875,54 +875,54 @@ export const cards = [
         yes: 
             [
                 {
-                    impactedMinistry: 'Secretary of Defense', 
+                    impactedMinistry: ' Defense', 
                     points: 0
                 },
                 {
-                    impactedMinistry: 'Secretary of Education', 
+                    impactedMinistry: ' Education', 
                     points: +2
                 },
                 {
-                    impactedMinistry: 'Secretary of Health and Human Services', 
+                    impactedMinistry: ' Health and Human Services', 
                     points: +2
                 },
                 {
-                    impactedMinistry: 'Secretary of Commerce', 
+                    impactedMinistry: ' Commerce', 
                     points: -2
                 },
                 {
-                    impactedMinistry: 'Office of Management and Budget', 
+                    impactedMinistry: ' Management and Budget', 
                     points: -1
                 },
                 {
-                    impactedMinistry: 'Secretary of Labor', 
+                    impactedMinistry: ' Labor', 
                     points: +2
                 },
             ],
         no: 
             [
                 {
-                    impactedMinistry: 'Secretary of Defense', 
+                    impactedMinistry: ' Defense', 
                     points: 0
                 },
                 {
-                    impactedMinistry: 'Secretary of Education', 
+                    impactedMinistry: ' Education', 
                     points: -2
                 },
                 {
-                    impactedMinistry: 'Secretary of Health and Human Services', 
+                    impactedMinistry: ' Health and Human Services', 
                     points: -2
                 },
                 {
-                    impactedMinistry: 'Secretary of Commerce', 
+                    impactedMinistry: ' Commerce', 
                     points: -1
                 },
                 {
-                    impactedMinistry: 'Office of Management and Budget', 
+                    impactedMinistry: ' Management and Budget', 
                     points: +1
                 },
                 {
-                    impactedMinistry: 'Secretary of Labor', 
+                    impactedMinistry: ' Labor', 
                     points: -2
                 },
             ],
@@ -933,54 +933,54 @@ export const cards = [
         yes: 
             [
                 {
-                    impactedMinistry: 'Secretary of Defense', 
+                    impactedMinistry: ' Defense', 
                     points: 0
                 },
                 {
-                    impactedMinistry: 'Secretary of Education', 
+                    impactedMinistry: ' Education', 
                     points: +2
                 },
                 {
-                    impactedMinistry: 'Secretary of Health and Human Services', 
+                    impactedMinistry: ' Health and Human Services', 
                     points: +2
                 },
                 {
-                    impactedMinistry: 'Secretary of Commerce', 
+                    impactedMinistry: ' Commerce', 
                     points: -2
                 },
                 {
-                    impactedMinistry: 'Office of Management and Budget', 
+                    impactedMinistry: ' Management and Budget', 
                     points: -1
                 },
                 {
-                    impactedMinistry: 'Secretary of Labor', 
+                    impactedMinistry: ' Labor', 
                     points: +2
                 },
             ],
         no: 
             [
                 {
-                    impactedMinistry: 'Secretary of Defense', 
+                    impactedMinistry: ' Defense', 
                     points: 0
                 },
                 {
-                    impactedMinistry: 'Secretary of Education', 
+                    impactedMinistry: ' Education', 
                     points: -2
                 },
                 {
-                    impactedMinistry: 'Secretary of Health and Human Services', 
+                    impactedMinistry: ' Health and Human Services', 
                     points: -2
                 },
                 {
-                    impactedMinistry: 'Secretary of Commerce', 
+                    impactedMinistry: ' Commerce', 
                     points: -1
                 },
                 {
-                    impactedMinistry: 'Office of Management and Budget', 
+                    impactedMinistry: ' Management and Budget', 
                     points: +1
                 },
                 {
-                    impactedMinistry: 'Secretary of Labor', 
+                    impactedMinistry: ' Labor', 
                     points: -2
                 },
             ],
@@ -991,54 +991,54 @@ export const cards = [
         yes: 
             [
                 {
-                    impactedMinistry: 'Secretary of Defense', 
+                    impactedMinistry: ' Defense', 
                     points: 0
                 },
                 {
-                    impactedMinistry: 'Secretary of Education', 
+                    impactedMinistry: ' Education', 
                     points: +2
                 },
                 {
-                    impactedMinistry: 'Secretary of Health and Human Services', 
+                    impactedMinistry: ' Health and Human Services', 
                     points: +2
                 },
                 {
-                    impactedMinistry: 'Secretary of Commerce', 
+                    impactedMinistry: ' Commerce', 
                     points: -2
                 },
                 {
-                    impactedMinistry: 'Office of Management and Budget', 
+                    impactedMinistry: ' Management and Budget', 
                     points: -1
                 },
                 {
-                    impactedMinistry: 'Secretary of Labor', 
+                    impactedMinistry: ' Labor', 
                     points: +2
                 },
             ],
         no: 
             [
                 {
-                    impactedMinistry: 'Secretary of Defense', 
+                    impactedMinistry: ' Defense', 
                     points: 0
                 },
                 {
-                    impactedMinistry: 'Secretary of Education', 
+                    impactedMinistry: ' Education', 
                     points: -2
                 },
                 {
-                    impactedMinistry: 'Secretary of Health and Human Services', 
+                    impactedMinistry: ' Health and Human Services', 
                     points: -2
                 },
                 {
-                    impactedMinistry: 'Secretary of Commerce', 
+                    impactedMinistry: ' Commerce', 
                     points: -1
                 },
                 {
-                    impactedMinistry: 'Office of Management and Budget', 
+                    impactedMinistry: ' Management and Budget', 
                     points: +1
                 },
                 {
-                    impactedMinistry: 'Secretary of Labor', 
+                    impactedMinistry: ' Labor', 
                     points: -2
                 },
             ],
@@ -1049,54 +1049,54 @@ export const cards = [
         yes: 
             [
                 {
-                    impactedMinistry: 'Secretary of Defense', 
+                    impactedMinistry: ' Defense', 
                     points: 0
                 },
                 {
-                    impactedMinistry: 'Secretary of Education', 
+                    impactedMinistry: ' Education', 
                     points: +2
                 },
                 {
-                    impactedMinistry: 'Secretary of Health and Human Services', 
+                    impactedMinistry: ' Health and Human Services', 
                     points: +2
                 },
                 {
-                    impactedMinistry: 'Secretary of Commerce', 
+                    impactedMinistry: ' Commerce', 
                     points: -2
                 },
                 {
-                    impactedMinistry: 'Office of Management and Budget', 
+                    impactedMinistry: ' Management and Budget', 
                     points: -1
                 },
                 {
-                    impactedMinistry: 'Secretary of Labor', 
+                    impactedMinistry: ' Labor', 
                     points: +2
                 },
             ],
         no: 
             [
                 {
-                    impactedMinistry: 'Secretary of Defense', 
+                    impactedMinistry: ' Defense', 
                     points: 0
                 },
                 {
-                    impactedMinistry: 'Secretary of Education', 
+                    impactedMinistry: ' Education', 
                     points: -2
                 },
                 {
-                    impactedMinistry: 'Secretary of Health and Human Services', 
+                    impactedMinistry: ' Health and Human Services', 
                     points: -2
                 },
                 {
-                    impactedMinistry: 'Secretary of Commerce', 
+                    impactedMinistry: ' Commerce', 
                     points: -1
                 },
                 {
-                    impactedMinistry: 'Office of Management and Budget', 
+                    impactedMinistry: ' Management and Budget', 
                     points: +1
                 },
                 {
-                    impactedMinistry: 'Secretary of Labor', 
+                    impactedMinistry: ' Labor', 
                     points: -2
                 },
             ],
@@ -1107,54 +1107,54 @@ export const cards = [
         yes: 
             [
                 {
-                    impactedMinistry: 'Secretary of Defense', 
+                    impactedMinistry: ' Defense', 
                     points: 0
                 },
                 {
-                    impactedMinistry: 'Secretary of Education', 
+                    impactedMinistry: ' Education', 
                     points: +2
                 },
                 {
-                    impactedMinistry: 'Secretary of Health and Human Services', 
+                    impactedMinistry: ' Health and Human Services', 
                     points: +2
                 },
                 {
-                    impactedMinistry: 'Secretary of Commerce', 
+                    impactedMinistry: ' Commerce', 
                     points: -2
                 },
                 {
-                    impactedMinistry: 'Office of Management and Budget', 
+                    impactedMinistry: ' Management and Budget', 
                     points: -1
                 },
                 {
-                    impactedMinistry: 'Secretary of Labor', 
+                    impactedMinistry: ' Labor', 
                     points: +2
                 },
             ],
         no: 
             [
                 {
-                    impactedMinistry: 'Secretary of Defense', 
+                    impactedMinistry: ' Defense', 
                     points: 0
                 },
                 {
-                    impactedMinistry: 'Secretary of Education', 
+                    impactedMinistry: ' Education', 
                     points: -2
                 },
                 {
-                    impactedMinistry: 'Secretary of Health and Human Services', 
+                    impactedMinistry: ' Health and Human Services', 
                     points: -2
                 },
                 {
-                    impactedMinistry: 'Secretary of Commerce', 
+                    impactedMinistry: ' Commerce', 
                     points: -1
                 },
                 {
-                    impactedMinistry: 'Office of Management and Budget', 
+                    impactedMinistry: ' Management and Budget', 
                     points: +1
                 },
                 {
-                    impactedMinistry: 'Secretary of Labor', 
+                    impactedMinistry: ' Labor', 
                     points: -2
                 },
             ],
@@ -1165,54 +1165,54 @@ export const cards = [
         yes: 
             [
                 {
-                    impactedMinistry: 'Secretary of Defense', 
+                    impactedMinistry: ' Defense', 
                     points: 0
                 },
                 {
-                    impactedMinistry: 'Secretary of Education', 
+                    impactedMinistry: ' Education', 
                     points: +2
                 },
                 {
-                    impactedMinistry: 'Secretary of Health and Human Services', 
+                    impactedMinistry: ' Health and Human Services', 
                     points: +2
                 },
                 {
-                    impactedMinistry: 'Secretary of Commerce', 
+                    impactedMinistry: ' Commerce', 
                     points: -2
                 },
                 {
-                    impactedMinistry: 'Office of Management and Budget', 
+                    impactedMinistry: ' Management and Budget', 
                     points: -1
                 },
                 {
-                    impactedMinistry: 'Secretary of Labor', 
+                    impactedMinistry: ' Labor', 
                     points: +2
                 },
             ],
         no: 
             [
                 {
-                    impactedMinistry: 'Secretary of Defense', 
+                    impactedMinistry: ' Defense', 
                     points: 0
                 },
                 {
-                    impactedMinistry: 'Secretary of Education', 
+                    impactedMinistry: ' Education', 
                     points: -2
                 },
                 {
-                    impactedMinistry: 'Secretary of Health and Human Services', 
+                    impactedMinistry: ' Health and Human Services', 
                     points: -2
                 },
                 {
-                    impactedMinistry: 'Secretary of Commerce', 
+                    impactedMinistry: ' Commerce', 
                     points: -1
                 },
                 {
-                    impactedMinistry: 'Office of Management and Budget', 
+                    impactedMinistry: ' Management and Budget', 
                     points: +1
                 },
                 {
-                    impactedMinistry: 'Secretary of Labor', 
+                    impactedMinistry: ' Labor', 
                     points: -2
                 },
             ],
@@ -1223,54 +1223,54 @@ export const cards = [
         yes: 
             [
                 {
-                    impactedMinistry: 'Secretary of Defense', 
+                    impactedMinistry: ' Defense', 
                     points: 0
                 },
                 {
-                    impactedMinistry: 'Secretary of Education', 
+                    impactedMinistry: ' Education', 
                     points: +2
                 },
                 {
-                    impactedMinistry: 'Secretary of Health and Human Services', 
+                    impactedMinistry: ' Health and Human Services', 
                     points: +2
                 },
                 {
-                    impactedMinistry: 'Secretary of Commerce', 
+                    impactedMinistry: ' Commerce', 
                     points: -2
                 },
                 {
-                    impactedMinistry: 'Office of Management and Budget', 
+                    impactedMinistry: ' Management and Budget', 
                     points: -1
                 },
                 {
-                    impactedMinistry: 'Secretary of Labor', 
+                    impactedMinistry: ' Labor', 
                     points: +2
                 },
             ],
         no: 
             [
                 {
-                    impactedMinistry: 'Secretary of Defense', 
+                    impactedMinistry: ' Defense', 
                     points: 0
                 },
                 {
-                    impactedMinistry: 'Secretary of Education', 
+                    impactedMinistry: ' Education', 
                     points: -2
                 },
                 {
-                    impactedMinistry: 'Secretary of Health and Human Services', 
+                    impactedMinistry: ' Health and Human Services', 
                     points: -2
                 },
                 {
-                    impactedMinistry: 'Secretary of Commerce', 
+                    impactedMinistry: ' Commerce', 
                     points: -1
                 },
                 {
-                    impactedMinistry: 'Office of Management and Budget', 
+                    impactedMinistry: ' Management and Budget', 
                     points: +1
                 },
                 {
-                    impactedMinistry: 'Secretary of Labor', 
+                    impactedMinistry: ' Labor', 
                     points: -2
                 },
             ],
@@ -1281,54 +1281,54 @@ export const cards = [
         yes: 
             [
                 {
-                    impactedMinistry: 'Secretary of Defense', 
+                    impactedMinistry: ' Defense', 
                     points: 0
                 },
                 {
-                    impactedMinistry: 'Secretary of Education', 
+                    impactedMinistry: ' Education', 
                     points: +2
                 },
                 {
-                    impactedMinistry: 'Secretary of Health and Human Services', 
+                    impactedMinistry: ' Health and Human Services', 
                     points: +2
                 },
                 {
-                    impactedMinistry: 'Secretary of Commerce', 
+                    impactedMinistry: ' Commerce', 
                     points: -2
                 },
                 {
-                    impactedMinistry: 'Office of Management and Budget', 
+                    impactedMinistry: ' Management and Budget', 
                     points: -1
                 },
                 {
-                    impactedMinistry: 'Secretary of Labor', 
+                    impactedMinistry: ' Labor', 
                     points: +2
                 },
             ],
         no: 
             [
                 {
-                    impactedMinistry: 'Secretary of Defense', 
+                    impactedMinistry: ' Defense', 
                     points: 0
                 },
                 {
-                    impactedMinistry: 'Secretary of Education', 
+                    impactedMinistry: ' Education', 
                     points: -2
                 },
                 {
-                    impactedMinistry: 'Secretary of Health and Human Services', 
+                    impactedMinistry: ' Health and Human Services', 
                     points: -2
                 },
                 {
-                    impactedMinistry: 'Secretary of Commerce', 
+                    impactedMinistry: ' Commerce', 
                     points: -1
                 },
                 {
-                    impactedMinistry: 'Office of Management and Budget', 
+                    impactedMinistry: ' Management and Budget', 
                     points: +1
                 },
                 {
-                    impactedMinistry: 'Secretary of Labor', 
+                    impactedMinistry: ' Labor', 
                     points: -2
                 },
             ],
@@ -1339,54 +1339,54 @@ export const cards = [
         yes: 
             [
                 {
-                    impactedMinistry: 'Secretary of Defense', 
+                    impactedMinistry: ' Defense', 
                     points: 0
                 },
                 {
-                    impactedMinistry: 'Secretary of Education', 
+                    impactedMinistry: ' Education', 
                     points: +2
                 },
                 {
-                    impactedMinistry: 'Secretary of Health and Human Services', 
+                    impactedMinistry: ' Health and Human Services', 
                     points: +2
                 },
                 {
-                    impactedMinistry: 'Secretary of Commerce', 
+                    impactedMinistry: ' Commerce', 
                     points: -2
                 },
                 {
-                    impactedMinistry: 'Office of Management and Budget', 
+                    impactedMinistry: ' Management and Budget', 
                     points: -1
                 },
                 {
-                    impactedMinistry: 'Secretary of Labor', 
+                    impactedMinistry: ' Labor', 
                     points: +2
                 },
             ],
         no: 
             [
                 {
-                    impactedMinistry: 'Secretary of Defense', 
+                    impactedMinistry: ' Defense', 
                     points: 0
                 },
                 {
-                    impactedMinistry: 'Secretary of Education', 
+                    impactedMinistry: ' Education', 
                     points: -2
                 },
                 {
-                    impactedMinistry: 'Secretary of Health and Human Services', 
+                    impactedMinistry: ' Health and Human Services', 
                     points: -2
                 },
                 {
-                    impactedMinistry: 'Secretary of Commerce', 
+                    impactedMinistry: ' Commerce', 
                     points: -1
                 },
                 {
-                    impactedMinistry: 'Office of Management and Budget', 
+                    impactedMinistry: ' Management and Budget', 
                     points: +1
                 },
                 {
-                    impactedMinistry: 'Secretary of Labor', 
+                    impactedMinistry: ' Labor', 
                     points: -2
                 },
             ],
@@ -1397,54 +1397,54 @@ export const cards = [
         yes: 
             [
                 {
-                    impactedMinistry: 'Secretary of Defense', 
+                    impactedMinistry: ' Defense', 
                     points: 0
                 },
                 {
-                    impactedMinistry: 'Secretary of Education', 
+                    impactedMinistry: ' Education', 
                     points: +2
                 },
                 {
-                    impactedMinistry: 'Secretary of Health and Human Services', 
+                    impactedMinistry: ' Health and Human Services', 
                     points: +2
                 },
                 {
-                    impactedMinistry: 'Secretary of Commerce', 
+                    impactedMinistry: ' Commerce', 
                     points: -2
                 },
                 {
-                    impactedMinistry: 'Office of Management and Budget', 
+                    impactedMinistry: ' Management and Budget', 
                     points: -1
                 },
                 {
-                    impactedMinistry: 'Secretary of Labor', 
+                    impactedMinistry: ' Labor', 
                     points: +2
                 },
             ],
         no: 
             [
                 {
-                    impactedMinistry: 'Secretary of Defense', 
+                    impactedMinistry: ' Defense', 
                     points: 0
                 },
                 {
-                    impactedMinistry: 'Secretary of Education', 
+                    impactedMinistry: ' Education', 
                     points: -2
                 },
                 {
-                    impactedMinistry: 'Secretary of Health and Human Services', 
+                    impactedMinistry: ' Health and Human Services', 
                     points: -2
                 },
                 {
-                    impactedMinistry: 'Secretary of Commerce', 
+                    impactedMinistry: ' Commerce', 
                     points: -1
                 },
                 {
-                    impactedMinistry: 'Office of Management and Budget', 
+                    impactedMinistry: ' Management and Budget', 
                     points: +1
                 },
                 {
-                    impactedMinistry: 'Secretary of Labor', 
+                    impactedMinistry: ' Labor', 
                     points: -2
                 },
             ],
@@ -1455,54 +1455,54 @@ export const cards = [
         yes: 
             [
                 {
-                    impactedMinistry: 'Secretary of Defense', 
+                    impactedMinistry: ' Defense', 
                     points: 0
                 },
                 {
-                    impactedMinistry: 'Secretary of Education', 
+                    impactedMinistry: ' Education', 
                     points: +2
                 },
                 {
-                    impactedMinistry: 'Secretary of Health and Human Services', 
+                    impactedMinistry: ' Health and Human Services', 
                     points: +2
                 },
                 {
-                    impactedMinistry: 'Secretary of Commerce', 
+                    impactedMinistry: ' Commerce', 
                     points: -2
                 },
                 {
-                    impactedMinistry: 'Office of Management and Budget', 
+                    impactedMinistry: ' Management and Budget', 
                     points: -1
                 },
                 {
-                    impactedMinistry: 'Secretary of Labor', 
+                    impactedMinistry: ' Labor', 
                     points: +2
                 },
             ],
         no: 
             [
                 {
-                    impactedMinistry: 'Secretary of Defense', 
+                    impactedMinistry: ' Defense', 
                     points: 0
                 },
                 {
-                    impactedMinistry: 'Secretary of Education', 
+                    impactedMinistry: ' Education', 
                     points: -2
                 },
                 {
-                    impactedMinistry: 'Secretary of Health and Human Services', 
+                    impactedMinistry: ' Health and Human Services', 
                     points: -2
                 },
                 {
-                    impactedMinistry: 'Secretary of Commerce', 
+                    impactedMinistry: ' Commerce', 
                     points: -1
                 },
                 {
-                    impactedMinistry: 'Office of Management and Budget', 
+                    impactedMinistry: ' Management and Budget', 
                     points: +1
                 },
                 {
-                    impactedMinistry: 'Secretary of Labor', 
+                    impactedMinistry: ' Labor', 
                     points: -2
                 },
             ],
@@ -1513,54 +1513,54 @@ export const cards = [
         yes: 
             [
                 {
-                    impactedMinistry: 'Secretary of Defense', 
+                    impactedMinistry: ' Defense', 
                     points: 0
                 },
                 {
-                    impactedMinistry: 'Secretary of Education', 
+                    impactedMinistry: ' Education', 
                     points: +2
                 },
                 {
-                    impactedMinistry: 'Secretary of Health and Human Services', 
+                    impactedMinistry: ' Health and Human Services', 
                     points: +2
                 },
                 {
-                    impactedMinistry: 'Secretary of Commerce', 
+                    impactedMinistry: ' Commerce', 
                     points: -2
                 },
                 {
-                    impactedMinistry: 'Office of Management and Budget', 
+                    impactedMinistry: ' Management and Budget', 
                     points: -1
                 },
                 {
-                    impactedMinistry: 'Secretary of Labor', 
+                    impactedMinistry: ' Labor', 
                     points: +2
                 },
             ],
         no: 
             [
                 {
-                    impactedMinistry: 'Secretary of Defense', 
+                    impactedMinistry: ' Defense', 
                     points: 0
                 },
                 {
-                    impactedMinistry: 'Secretary of Education', 
+                    impactedMinistry: ' Education', 
                     points: -2
                 },
                 {
-                    impactedMinistry: 'Secretary of Health and Human Services', 
+                    impactedMinistry: ' Health and Human Services', 
                     points: -2
                 },
                 {
-                    impactedMinistry: 'Secretary of Commerce', 
+                    impactedMinistry: ' Commerce', 
                     points: -1
                 },
                 {
-                    impactedMinistry: 'Office of Management and Budget', 
+                    impactedMinistry: ' Management and Budget', 
                     points: +1
                 },
                 {
-                    impactedMinistry: 'Secretary of Labor', 
+                    impactedMinistry: ' Labor', 
                     points: -2
                 },
             ],
@@ -1571,54 +1571,54 @@ export const cards = [
         yes: 
             [
                 {
-                    impactedMinistry: 'Secretary of Defense', 
+                    impactedMinistry: ' Defense', 
                     points: 0
                 },
                 {
-                    impactedMinistry: 'Secretary of Education', 
+                    impactedMinistry: ' Education', 
                     points: +2
                 },
                 {
-                    impactedMinistry: 'Secretary of Health and Human Services', 
+                    impactedMinistry: ' Health and Human Services', 
                     points: +2
                 },
                 {
-                    impactedMinistry: 'Secretary of Commerce', 
+                    impactedMinistry: ' Commerce', 
                     points: -2
                 },
                 {
-                    impactedMinistry: 'Office of Management and Budget', 
+                    impactedMinistry: ' Management and Budget', 
                     points: -1
                 },
                 {
-                    impactedMinistry: 'Secretary of Labor', 
+                    impactedMinistry: ' Labor', 
                     points: +2
                 },
             ],
         no: 
             [
                 {
-                    impactedMinistry: 'Secretary of Defense', 
+                    impactedMinistry: ' Defense', 
                     points: 0
                 },
                 {
-                    impactedMinistry: 'Secretary of Education', 
+                    impactedMinistry: ' Education', 
                     points: -2
                 },
                 {
-                    impactedMinistry: 'Secretary of Health and Human Services', 
+                    impactedMinistry: ' Health and Human Services', 
                     points: -2
                 },
                 {
-                    impactedMinistry: 'Secretary of Commerce', 
+                    impactedMinistry: ' Commerce', 
                     points: -1
                 },
                 {
-                    impactedMinistry: 'Office of Management and Budget', 
+                    impactedMinistry: ' Management and Budget', 
                     points: +1
                 },
                 {
-                    impactedMinistry: 'Secretary of Labor', 
+                    impactedMinistry: ' Labor', 
                     points: -2
                 },
             ],
@@ -1629,54 +1629,54 @@ export const cards = [
         yes: 
             [
                 {
-                    impactedMinistry: 'Secretary of Defense', 
+                    impactedMinistry: ' Defense', 
                     points: 0
                 },
                 {
-                    impactedMinistry: 'Secretary of Education', 
+                    impactedMinistry: ' Education', 
                     points: +2
                 },
                 {
-                    impactedMinistry: 'Secretary of Health and Human Services', 
+                    impactedMinistry: ' Health and Human Services', 
                     points: +2
                 },
                 {
-                    impactedMinistry: 'Secretary of Commerce', 
+                    impactedMinistry: ' Commerce', 
                     points: -2
                 },
                 {
-                    impactedMinistry: 'Office of Management and Budget', 
+                    impactedMinistry: ' Management and Budget', 
                     points: -1
                 },
                 {
-                    impactedMinistry: 'Secretary of Labor', 
+                    impactedMinistry: ' Labor', 
                     points: +2
                 },
             ],
         no: 
             [
                 {
-                    impactedMinistry: 'Secretary of Defense', 
+                    impactedMinistry: ' Defense', 
                     points: 0
                 },
                 {
-                    impactedMinistry: 'Secretary of Education', 
+                    impactedMinistry: ' Education', 
                     points: -2
                 },
                 {
-                    impactedMinistry: 'Secretary of Health and Human Services', 
+                    impactedMinistry: ' Health and Human Services', 
                     points: -2
                 },
                 {
-                    impactedMinistry: 'Secretary of Commerce', 
+                    impactedMinistry: ' Commerce', 
                     points: -1
                 },
                 {
-                    impactedMinistry: 'Office of Management and Budget', 
+                    impactedMinistry: ' Management and Budget', 
                     points: +1
                 },
                 {
-                    impactedMinistry: 'Secretary of Labor', 
+                    impactedMinistry: ' Labor', 
                     points: -2
                 },
             ],
@@ -1687,54 +1687,54 @@ export const cards = [
         yes: 
             [
                 {
-                    impactedMinistry: 'Secretary of Defense', 
+                    impactedMinistry: ' Defense', 
                     points: 0
                 },
                 {
-                    impactedMinistry: 'Secretary of Education', 
+                    impactedMinistry: ' Education', 
                     points: +2
                 },
                 {
-                    impactedMinistry: 'Secretary of Health and Human Services', 
+                    impactedMinistry: ' Health and Human Services', 
                     points: +2
                 },
                 {
-                    impactedMinistry: 'Secretary of Commerce', 
+                    impactedMinistry: ' Commerce', 
                     points: -2
                 },
                 {
-                    impactedMinistry: 'Office of Management and Budget', 
+                    impactedMinistry: ' Management and Budget', 
                     points: -1
                 },
                 {
-                    impactedMinistry: 'Secretary of Labor', 
+                    impactedMinistry: ' Labor', 
                     points: +2
                 },
             ],
         no: 
             [
                 {
-                    impactedMinistry: 'Secretary of Defense', 
+                    impactedMinistry: ' Defense', 
                     points: 0
                 },
                 {
-                    impactedMinistry: 'Secretary of Education', 
+                    impactedMinistry: ' Education', 
                     points: -2
                 },
                 {
-                    impactedMinistry: 'Secretary of Health and Human Services', 
+                    impactedMinistry: ' Health and Human Services', 
                     points: -2
                 },
                 {
-                    impactedMinistry: 'Secretary of Commerce', 
+                    impactedMinistry: ' Commerce', 
                     points: -1
                 },
                 {
-                    impactedMinistry: 'Office of Management and Budget', 
+                    impactedMinistry: ' Management and Budget', 
                     points: +1
                 },
                 {
-                    impactedMinistry: 'Secretary of Labor', 
+                    impactedMinistry: ' Labor', 
                     points: -2
                 },
             ],
@@ -1745,54 +1745,54 @@ export const cards = [
         yes: 
             [
                 {
-                    impactedMinistry: 'Secretary of Defense', 
+                    impactedMinistry: ' Defense', 
                     points: 0
                 },
                 {
-                    impactedMinistry: 'Secretary of Education', 
+                    impactedMinistry: ' Education', 
                     points: +2
                 },
                 {
-                    impactedMinistry: 'Secretary of Health and Human Services', 
+                    impactedMinistry: ' Health and Human Services', 
                     points: +2
                 },
                 {
-                    impactedMinistry: 'Secretary of Commerce', 
+                    impactedMinistry: ' Commerce', 
                     points: -2
                 },
                 {
-                    impactedMinistry: 'Office of Management and Budget', 
+                    impactedMinistry: ' Management and Budget', 
                     points: -1
                 },
                 {
-                    impactedMinistry: 'Secretary of Labor', 
+                    impactedMinistry: ' Labor', 
                     points: +2
                 },
             ],
         no: 
             [
                 {
-                    impactedMinistry: 'Secretary of Defense', 
+                    impactedMinistry: ' Defense', 
                     points: 0
                 },
                 {
-                    impactedMinistry: 'Secretary of Education', 
+                    impactedMinistry: ' Education', 
                     points: -2
                 },
                 {
-                    impactedMinistry: 'Secretary of Health and Human Services', 
+                    impactedMinistry: ' Health and Human Services', 
                     points: -2
                 },
                 {
-                    impactedMinistry: 'Secretary of Commerce', 
+                    impactedMinistry: ' Commerce', 
                     points: -1
                 },
                 {
-                    impactedMinistry: 'Office of Management and Budget', 
+                    impactedMinistry: ' Management and Budget', 
                     points: +1
                 },
                 {
-                    impactedMinistry: 'Secretary of Labor', 
+                    impactedMinistry: ' Labor', 
                     points: -2
                 },
             ],
@@ -1803,54 +1803,54 @@ export const cards = [
         yes: 
             [
                 {
-                    impactedMinistry: 'Secretary of Defense', 
+                    impactedMinistry: ' Defense', 
                     points: 0
                 },
                 {
-                    impactedMinistry: 'Secretary of Education', 
+                    impactedMinistry: ' Education', 
                     points: +2
                 },
                 {
-                    impactedMinistry: 'Secretary of Health and Human Services', 
+                    impactedMinistry: ' Health and Human Services', 
                     points: +2
                 },
                 {
-                    impactedMinistry: 'Secretary of Commerce', 
+                    impactedMinistry: ' Commerce', 
                     points: -2
                 },
                 {
-                    impactedMinistry: 'Office of Management and Budget', 
+                    impactedMinistry: ' Management and Budget', 
                     points: -1
                 },
                 {
-                    impactedMinistry: 'Secretary of Labor', 
+                    impactedMinistry: ' Labor', 
                     points: +2
                 },
             ],
         no: 
             [
                 {
-                    impactedMinistry: 'Secretary of Defense', 
+                    impactedMinistry: ' Defense', 
                     points: 0
                 },
                 {
-                    impactedMinistry: 'Secretary of Education', 
+                    impactedMinistry: ' Education', 
                     points: -2
                 },
                 {
-                    impactedMinistry: 'Secretary of Health and Human Services', 
+                    impactedMinistry: ' Health and Human Services', 
                     points: -2
                 },
                 {
-                    impactedMinistry: 'Secretary of Commerce', 
+                    impactedMinistry: ' Commerce', 
                     points: -1
                 },
                 {
-                    impactedMinistry: 'Office of Management and Budget', 
+                    impactedMinistry: ' Management and Budget', 
                     points: +1
                 },
                 {
-                    impactedMinistry: 'Secretary of Labor', 
+                    impactedMinistry: ' Labor', 
                     points: -2
                 },
             ],
@@ -1861,54 +1861,54 @@ export const cards = [
         yes: 
             [
                 {
-                    impactedMinistry: 'Secretary of Defense', 
+                    impactedMinistry: ' Defense', 
                     points: 0
                 },
                 {
-                    impactedMinistry: 'Secretary of Education', 
+                    impactedMinistry: ' Education', 
                     points: +2
                 },
                 {
-                    impactedMinistry: 'Secretary of Health and Human Services', 
+                    impactedMinistry: ' Health and Human Services', 
                     points: +2
                 },
                 {
-                    impactedMinistry: 'Secretary of Commerce', 
+                    impactedMinistry: ' Commerce', 
                     points: -2
                 },
                 {
-                    impactedMinistry: 'Office of Management and Budget', 
+                    impactedMinistry: ' Management and Budget', 
                     points: -1
                 },
                 {
-                    impactedMinistry: 'Secretary of Labor', 
+                    impactedMinistry: ' Labor', 
                     points: +2
                 },
             ],
         no: 
             [
                 {
-                    impactedMinistry: 'Secretary of Defense', 
+                    impactedMinistry: ' Defense', 
                     points: 0
                 },
                 {
-                    impactedMinistry: 'Secretary of Education', 
+                    impactedMinistry: ' Education', 
                     points: -2
                 },
                 {
-                    impactedMinistry: 'Secretary of Health and Human Services', 
+                    impactedMinistry: ' Health and Human Services', 
                     points: -2
                 },
                 {
-                    impactedMinistry: 'Secretary of Commerce', 
+                    impactedMinistry: ' Commerce', 
                     points: -1
                 },
                 {
-                    impactedMinistry: 'Office of Management and Budget', 
+                    impactedMinistry: ' Management and Budget', 
                     points: +1
                 },
                 {
-                    impactedMinistry: 'Secretary of Labor', 
+                    impactedMinistry: ' Labor', 
                     points: -2
                 },
             ],
@@ -1919,54 +1919,54 @@ export const cards = [
         yes: 
             [
                 {
-                    impactedMinistry: 'Secretary of Defense', 
+                    impactedMinistry: ' Defense', 
                     points: 0
                 },
                 {
-                    impactedMinistry: 'Secretary of Education', 
+                    impactedMinistry: ' Education', 
                     points: +2
                 },
                 {
-                    impactedMinistry: 'Secretary of Health and Human Services', 
+                    impactedMinistry: ' Health and Human Services', 
                     points: +2
                 },
                 {
-                    impactedMinistry: 'Secretary of Commerce', 
+                    impactedMinistry: ' Commerce', 
                     points: -2
                 },
                 {
-                    impactedMinistry: 'Office of Management and Budget', 
+                    impactedMinistry: ' Management and Budget', 
                     points: -1
                 },
                 {
-                    impactedMinistry: 'Secretary of Labor', 
+                    impactedMinistry: ' Labor', 
                     points: +2
                 },
             ],
         no: 
             [
                 {
-                    impactedMinistry: 'Secretary of Defense', 
+                    impactedMinistry: ' Defense', 
                     points: 0
                 },
                 {
-                    impactedMinistry: 'Secretary of Education', 
+                    impactedMinistry: ' Education', 
                     points: -2
                 },
                 {
-                    impactedMinistry: 'Secretary of Health and Human Services', 
+                    impactedMinistry: ' Health and Human Services', 
                     points: -2
                 },
                 {
-                    impactedMinistry: 'Secretary of Commerce', 
+                    impactedMinistry: ' Commerce', 
                     points: -1
                 },
                 {
-                    impactedMinistry: 'Office of Management and Budget', 
+                    impactedMinistry: ' Management and Budget', 
                     points: +1
                 },
                 {
-                    impactedMinistry: 'Secretary of Labor', 
+                    impactedMinistry: ' Labor', 
                     points: -2
                 },
             ],
@@ -1977,54 +1977,54 @@ export const cards = [
         yes: 
             [
                 {
-                    impactedMinistry: 'Secretary of Defense', 
+                    impactedMinistry: ' Defense', 
                     points: 0
                 },
                 {
-                    impactedMinistry: 'Secretary of Education', 
+                    impactedMinistry: ' Education', 
                     points: +2
                 },
                 {
-                    impactedMinistry: 'Secretary of Health and Human Services', 
+                    impactedMinistry: ' Health and Human Services', 
                     points: +2
                 },
                 {
-                    impactedMinistry: 'Secretary of Commerce', 
+                    impactedMinistry: ' Commerce', 
                     points: -2
                 },
                 {
-                    impactedMinistry: 'Office of Management and Budget', 
+                    impactedMinistry: ' Management and Budget', 
                     points: -1
                 },
                 {
-                    impactedMinistry: 'Secretary of Labor', 
+                    impactedMinistry: ' Labor', 
                     points: +2
                 },
             ],
         no: 
             [
                 {
-                    impactedMinistry: 'Secretary of Defense', 
+                    impactedMinistry: ' Defense', 
                     points: 0
                 },
                 {
-                    impactedMinistry: 'Secretary of Education', 
+                    impactedMinistry: ' Education', 
                     points: -2
                 },
                 {
-                    impactedMinistry: 'Secretary of Health and Human Services', 
+                    impactedMinistry: ' Health and Human Services', 
                     points: -2
                 },
                 {
-                    impactedMinistry: 'Secretary of Commerce', 
+                    impactedMinistry: ' Commerce', 
                     points: -1
                 },
                 {
-                    impactedMinistry: 'Office of Management and Budget', 
+                    impactedMinistry: ' Management and Budget', 
                     points: +1
                 },
                 {
-                    impactedMinistry: 'Secretary of Labor', 
+                    impactedMinistry: ' Labor', 
                     points: -2
                 },
             ],
@@ -2035,54 +2035,54 @@ export const cards = [
         yes: 
             [
                 {
-                    impactedMinistry: 'Secretary of Defense', 
+                    impactedMinistry: ' Defense', 
                     points: 0
                 },
                 {
-                    impactedMinistry: 'Secretary of Education', 
+                    impactedMinistry: ' Education', 
                     points: +2
                 },
                 {
-                    impactedMinistry: 'Secretary of Health and Human Services', 
+                    impactedMinistry: ' Health and Human Services', 
                     points: +2
                 },
                 {
-                    impactedMinistry: 'Secretary of Commerce', 
+                    impactedMinistry: ' Commerce', 
                     points: -2
                 },
                 {
-                    impactedMinistry: 'Office of Management and Budget', 
+                    impactedMinistry: ' Management and Budget', 
                     points: -1
                 },
                 {
-                    impactedMinistry: 'Secretary of Labor', 
+                    impactedMinistry: ' Labor', 
                     points: +2
                 },
             ],
         no: 
             [
                 {
-                    impactedMinistry: 'Secretary of Defense', 
+                    impactedMinistry: ' Defense', 
                     points: 0
                 },
                 {
-                    impactedMinistry: 'Secretary of Education', 
+                    impactedMinistry: ' Education', 
                     points: -2
                 },
                 {
-                    impactedMinistry: 'Secretary of Health and Human Services', 
+                    impactedMinistry: ' Health and Human Services', 
                     points: -2
                 },
                 {
-                    impactedMinistry: 'Secretary of Commerce', 
+                    impactedMinistry: ' Commerce', 
                     points: -1
                 },
                 {
-                    impactedMinistry: 'Office of Management and Budget', 
+                    impactedMinistry: ' Management and Budget', 
                     points: +1
                 },
                 {
-                    impactedMinistry: 'Secretary of Labor', 
+                    impactedMinistry: ' Labor', 
                     points: -2
                 },
             ],
@@ -2093,112 +2093,112 @@ export const cards = [
         yes: 
             [
                 {
-                    impactedMinistry: 'Secretary of Defense', 
+                    impactedMinistry: ' Defense', 
                     points: 0
                 },
                 {
-                    impactedMinistry: 'Secretary of Education', 
+                    impactedMinistry: ' Education', 
                     points: +2
                 },
                 {
-                    impactedMinistry: 'Secretary of Health and Human Services', 
+                    impactedMinistry: ' Health and Human Services', 
                     points: +2
                 },
                 {
-                    impactedMinistry: 'Secretary of Commerce', 
+                    impactedMinistry: ' Commerce', 
                     points: -2
                 },
                 {
-                    impactedMinistry: 'Office of Management and Budget', 
+                    impactedMinistry: ' Management and Budget', 
                     points: -1
                 },
                 {
-                    impactedMinistry: 'Secretary of Labor', 
+                    impactedMinistry: ' Labor', 
                     points: +2
                 },
             ],
         no: 
             [
                 {
-                    impactedMinistry: 'Secretary of Defense', 
+                    impactedMinistry: ' Defense', 
                     points: 0
                 },
                 {
-                    impactedMinistry: 'Secretary of Education', 
+                    impactedMinistry: ' Education', 
                     points: -2
                 },
                 {
-                    impactedMinistry: 'Secretary of Health and Human Services', 
+                    impactedMinistry: ' Health and Human Services', 
                     points: -2
                 },
                 {
-                    impactedMinistry: 'Secretary of Commerce', 
+                    impactedMinistry: ' Commerce', 
                     points: -1
                 },
                 {
-                    impactedMinistry: 'Office of Management and Budget', 
+                    impactedMinistry: ' Management and Budget', 
                     points: +1
                 },
                 {
-                    impactedMinistry: 'Secretary of Labor', 
+                    impactedMinistry: ' Labor', 
                     points: -2
                 },
             ],
     },
     {
-        content: `Appoint Batman as the head of the Secretary of Defense?`,
+        content: `Appoint Batman as the head of the  Defense?`,
         price: 5000,
         yes: 
             [
                 {
-                    impactedMinistry: 'Secretary of Defense', 
+                    impactedMinistry: ' Defense', 
                     points: 0
                 },
                 {
-                    impactedMinistry: 'Secretary of Education', 
+                    impactedMinistry: ' Education', 
                     points: +2
                 },
                 {
-                    impactedMinistry: 'Secretary of Health and Human Services', 
+                    impactedMinistry: ' Health and Human Services', 
                     points: +2
                 },
                 {
-                    impactedMinistry: 'Secretary of Commerce', 
+                    impactedMinistry: ' Commerce', 
                     points: -2
                 },
                 {
-                    impactedMinistry: 'Office of Management and Budget', 
+                    impactedMinistry: ' Management and Budget', 
                     points: -1
                 },
                 {
-                    impactedMinistry: 'Secretary of Labor', 
+                    impactedMinistry: ' Labor', 
                     points: +2
                 },
             ],
         no: 
             [
                 {
-                    impactedMinistry: 'Secretary of Defense', 
+                    impactedMinistry: ' Defense', 
                     points: 0
                 },
                 {
-                    impactedMinistry: 'Secretary of Education', 
+                    impactedMinistry: ' Education', 
                     points: -2
                 },
                 {
-                    impactedMinistry: 'Secretary of Health and Human Services', 
+                    impactedMinistry: ' Health and Human Services', 
                     points: -2
                 },
                 {
-                    impactedMinistry: 'Secretary of Commerce', 
+                    impactedMinistry: ' Commerce', 
                     points: -1
                 },
                 {
-                    impactedMinistry: 'Office of Management and Budget', 
+                    impactedMinistry: ' Management and Budget', 
                     points: +1
                 },
                 {
-                    impactedMinistry: 'Secretary of Labor', 
+                    impactedMinistry: ' Labor', 
                     points: -2
                 },
             ],
@@ -2209,54 +2209,54 @@ export const cards = [
         yes: 
             [
                 {
-                    impactedMinistry: 'Secretary of Defense', 
+                    impactedMinistry: ' Defense', 
                     points: 0
                 },
                 {
-                    impactedMinistry: 'Secretary of Education', 
+                    impactedMinistry: ' Education', 
                     points: +2
                 },
                 {
-                    impactedMinistry: 'Secretary of Health and Human Services', 
+                    impactedMinistry: ' Health and Human Services', 
                     points: +2
                 },
                 {
-                    impactedMinistry: 'Secretary of Commerce', 
+                    impactedMinistry: ' Commerce', 
                     points: -2
                 },
                 {
-                    impactedMinistry: 'Office of Management and Budget', 
+                    impactedMinistry: ' Management and Budget', 
                     points: -1
                 },
                 {
-                    impactedMinistry: 'Secretary of Labor', 
+                    impactedMinistry: ' Labor', 
                     points: +2
                 },
             ],
         no: 
             [
                 {
-                    impactedMinistry: 'Secretary of Defense', 
+                    impactedMinistry: ' Defense', 
                     points: 0
                 },
                 {
-                    impactedMinistry: 'Secretary of Education', 
+                    impactedMinistry: ' Education', 
                     points: -2
                 },
                 {
-                    impactedMinistry: 'Secretary of Health and Human Services', 
+                    impactedMinistry: ' Health and Human Services', 
                     points: -2
                 },
                 {
-                    impactedMinistry: 'Secretary of Commerce', 
+                    impactedMinistry: ' Commerce', 
                     points: -1
                 },
                 {
-                    impactedMinistry: 'Office of Management and Budget', 
+                    impactedMinistry: ' Management and Budget', 
                     points: +1
                 },
                 {
-                    impactedMinistry: 'Secretary of Labor', 
+                    impactedMinistry: ' Labor', 
                     points: -2
                 },
             ],
@@ -2267,54 +2267,54 @@ export const cards = [
         yes: 
             [
                 {
-                    impactedMinistry: 'Secretary of Defense', 
+                    impactedMinistry: ' Defense', 
                     points: 0
                 },
                 {
-                    impactedMinistry: 'Secretary of Education', 
+                    impactedMinistry: ' Education', 
                     points: +2
                 },
                 {
-                    impactedMinistry: 'Secretary of Health and Human Services', 
+                    impactedMinistry: ' Health and Human Services', 
                     points: +2
                 },
                 {
-                    impactedMinistry: 'Secretary of Commerce', 
+                    impactedMinistry: ' Commerce', 
                     points: -2
                 },
                 {
-                    impactedMinistry: 'Office of Management and Budget', 
+                    impactedMinistry: ' Management and Budget', 
                     points: -1
                 },
                 {
-                    impactedMinistry: 'Secretary of Labor', 
+                    impactedMinistry: ' Labor', 
                     points: +2
                 },
             ],
         no: 
             [
                 {
-                    impactedMinistry: 'Secretary of Defense', 
+                    impactedMinistry: ' Defense', 
                     points: 0
                 },
                 {
-                    impactedMinistry: 'Secretary of Education', 
+                    impactedMinistry: ' Education', 
                     points: -2
                 },
                 {
-                    impactedMinistry: 'Secretary of Health and Human Services', 
+                    impactedMinistry: ' Health and Human Services', 
                     points: -2
                 },
                 {
-                    impactedMinistry: 'Secretary of Commerce', 
+                    impactedMinistry: ' Commerce', 
                     points: -1
                 },
                 {
-                    impactedMinistry: 'Office of Management and Budget', 
+                    impactedMinistry: ' Management and Budget', 
                     points: +1
                 },
                 {
-                    impactedMinistry: 'Secretary of Labor', 
+                    impactedMinistry: ' Labor', 
                     points: -2
                 },
             ],
@@ -2325,54 +2325,54 @@ export const cards = [
         yes: 
             [
                 {
-                    impactedMinistry: 'Secretary of Defense', 
+                    impactedMinistry: ' Defense', 
                     points: 0
                 },
                 {
-                    impactedMinistry: 'Secretary of Education', 
+                    impactedMinistry: ' Education', 
                     points: +2
                 },
                 {
-                    impactedMinistry: 'Secretary of Health and Human Services', 
+                    impactedMinistry: ' Health and Human Services', 
                     points: +2
                 },
                 {
-                    impactedMinistry: 'Secretary of Commerce', 
+                    impactedMinistry: ' Commerce', 
                     points: -2
                 },
                 {
-                    impactedMinistry: 'Office of Management and Budget', 
+                    impactedMinistry: ' Management and Budget', 
                     points: -1
                 },
                 {
-                    impactedMinistry: 'Secretary of Labor', 
+                    impactedMinistry: ' Labor', 
                     points: +2
                 },
             ],
         no: 
             [
                 {
-                    impactedMinistry: 'Secretary of Defense', 
+                    impactedMinistry: ' Defense', 
                     points: 0
                 },
                 {
-                    impactedMinistry: 'Secretary of Education', 
+                    impactedMinistry: ' Education', 
                     points: -2
                 },
                 {
-                    impactedMinistry: 'Secretary of Health and Human Services', 
+                    impactedMinistry: ' Health and Human Services', 
                     points: -2
                 },
                 {
-                    impactedMinistry: 'Secretary of Commerce', 
+                    impactedMinistry: ' Commerce', 
                     points: -1
                 },
                 {
-                    impactedMinistry: 'Office of Management and Budget', 
+                    impactedMinistry: ' Management and Budget', 
                     points: +1
                 },
                 {
-                    impactedMinistry: 'Secretary of Labor', 
+                    impactedMinistry: ' Labor', 
                     points: -2
                 },
             ],
@@ -2383,54 +2383,54 @@ export const cards = [
         yes: 
             [
                 {
-                    impactedMinistry: 'Secretary of Defense', 
+                    impactedMinistry: ' Defense', 
                     points: 0
                 },
                 {
-                    impactedMinistry: 'Secretary of Education', 
+                    impactedMinistry: ' Education', 
                     points: +2
                 },
                 {
-                    impactedMinistry: 'Secretary of Health and Human Services', 
+                    impactedMinistry: ' Health and Human Services', 
                     points: +2
                 },
                 {
-                    impactedMinistry: 'Secretary of Commerce', 
+                    impactedMinistry: ' Commerce', 
                     points: -2
                 },
                 {
-                    impactedMinistry: 'Office of Management and Budget', 
+                    impactedMinistry: ' Management and Budget', 
                     points: -1
                 },
                 {
-                    impactedMinistry: 'Secretary of Labor', 
+                    impactedMinistry: ' Labor', 
                     points: +2
                 },
             ],
         no: 
             [
                 {
-                    impactedMinistry: 'Secretary of Defense', 
+                    impactedMinistry: ' Defense', 
                     points: 0
                 },
                 {
-                    impactedMinistry: 'Secretary of Education', 
+                    impactedMinistry: ' Education', 
                     points: -2
                 },
                 {
-                    impactedMinistry: 'Secretary of Health and Human Services', 
+                    impactedMinistry: ' Health and Human Services', 
                     points: -2
                 },
                 {
-                    impactedMinistry: 'Secretary of Commerce', 
+                    impactedMinistry: ' Commerce', 
                     points: -1
                 },
                 {
-                    impactedMinistry: 'Office of Management and Budget', 
+                    impactedMinistry: ' Management and Budget', 
                     points: +1
                 },
                 {
-                    impactedMinistry: 'Secretary of Labor', 
+                    impactedMinistry: ' Labor', 
                     points: -2
                 },
             ],
@@ -2441,54 +2441,54 @@ export const cards = [
         yes: 
             [
                 {
-                    impactedMinistry: 'Secretary of Defense', 
+                    impactedMinistry: ' Defense', 
                     points: 0
                 },
                 {
-                    impactedMinistry: 'Secretary of Education', 
+                    impactedMinistry: ' Education', 
                     points: +2
                 },
                 {
-                    impactedMinistry: 'Secretary of Health and Human Services', 
+                    impactedMinistry: ' Health and Human Services', 
                     points: +2
                 },
                 {
-                    impactedMinistry: 'Secretary of Commerce', 
+                    impactedMinistry: ' Commerce', 
                     points: -2
                 },
                 {
-                    impactedMinistry: 'Office of Management and Budget', 
+                    impactedMinistry: ' Management and Budget', 
                     points: -1
                 },
                 {
-                    impactedMinistry: 'Secretary of Labor', 
+                    impactedMinistry: ' Labor', 
                     points: +2
                 },
             ],
         no: 
             [
                 {
-                    impactedMinistry: 'Secretary of Defense', 
+                    impactedMinistry: ' Defense', 
                     points: 0
                 },
                 {
-                    impactedMinistry: 'Secretary of Education', 
+                    impactedMinistry: ' Education', 
                     points: -2
                 },
                 {
-                    impactedMinistry: 'Secretary of Health and Human Services', 
+                    impactedMinistry: ' Health and Human Services', 
                     points: -2
                 },
                 {
-                    impactedMinistry: 'Secretary of Commerce', 
+                    impactedMinistry: ' Commerce', 
                     points: -1
                 },
                 {
-                    impactedMinistry: 'Office of Management and Budget', 
+                    impactedMinistry: ' Management and Budget', 
                     points: +1
                 },
                 {
-                    impactedMinistry: 'Secretary of Labor', 
+                    impactedMinistry: ' Labor', 
                     points: -2
                 },
             ],
@@ -2499,54 +2499,54 @@ export const cards = [
         yes: 
             [
                 {
-                    impactedMinistry: 'Secretary of Defense', 
+                    impactedMinistry: ' Defense', 
                     points: 0
                 },
                 {
-                    impactedMinistry: 'Secretary of Education', 
+                    impactedMinistry: ' Education', 
                     points: +2
                 },
                 {
-                    impactedMinistry: 'Secretary of Health and Human Services', 
+                    impactedMinistry: ' Health and Human Services', 
                     points: +2
                 },
                 {
-                    impactedMinistry: 'Secretary of Commerce', 
+                    impactedMinistry: ' Commerce', 
                     points: -2
                 },
                 {
-                    impactedMinistry: 'Office of Management and Budget', 
+                    impactedMinistry: ' Management and Budget', 
                     points: -1
                 },
                 {
-                    impactedMinistry: 'Secretary of Labor', 
+                    impactedMinistry: ' Labor', 
                     points: +2
                 },
             ],
         no: 
             [
                 {
-                    impactedMinistry: 'Secretary of Defense', 
+                    impactedMinistry: ' Defense', 
                     points: 0
                 },
                 {
-                    impactedMinistry: 'Secretary of Education', 
+                    impactedMinistry: ' Education', 
                     points: -2
                 },
                 {
-                    impactedMinistry: 'Secretary of Health and Human Services', 
+                    impactedMinistry: ' Health and Human Services', 
                     points: -2
                 },
                 {
-                    impactedMinistry: 'Secretary of Commerce', 
+                    impactedMinistry: ' Commerce', 
                     points: -1
                 },
                 {
-                    impactedMinistry: 'Office of Management and Budget', 
+                    impactedMinistry: ' Management and Budget', 
                     points: +1
                 },
                 {
-                    impactedMinistry: 'Secretary of Labor', 
+                    impactedMinistry: ' Labor', 
                     points: -2
                 },
             ],
@@ -2557,54 +2557,54 @@ export const cards = [
         yes: 
             [
                 {
-                    impactedMinistry: 'Secretary of Defense', 
+                    impactedMinistry: ' Defense', 
                     points: 0
                 },
                 {
-                    impactedMinistry: 'Secretary of Education', 
+                    impactedMinistry: ' Education', 
                     points: +2
                 },
                 {
-                    impactedMinistry: 'Secretary of Health and Human Services', 
+                    impactedMinistry: ' Health and Human Services', 
                     points: +2
                 },
                 {
-                    impactedMinistry: 'Secretary of Commerce', 
+                    impactedMinistry: ' Commerce', 
                     points: -2
                 },
                 {
-                    impactedMinistry: 'Office of Management and Budget', 
+                    impactedMinistry: ' Management and Budget', 
                     points: -1
                 },
                 {
-                    impactedMinistry: 'Secretary of Labor', 
+                    impactedMinistry: ' Labor', 
                     points: +2
                 },
             ],
         no: 
             [
                 {
-                    impactedMinistry: 'Secretary of Defense', 
+                    impactedMinistry: ' Defense', 
                     points: 0
                 },
                 {
-                    impactedMinistry: 'Secretary of Education', 
+                    impactedMinistry: ' Education', 
                     points: -2
                 },
                 {
-                    impactedMinistry: 'Secretary of Health and Human Services', 
+                    impactedMinistry: ' Health and Human Services', 
                     points: -2
                 },
                 {
-                    impactedMinistry: 'Secretary of Commerce', 
+                    impactedMinistry: ' Commerce', 
                     points: -1
                 },
                 {
-                    impactedMinistry: 'Office of Management and Budget', 
+                    impactedMinistry: ' Management and Budget', 
                     points: +1
                 },
                 {
-                    impactedMinistry: 'Secretary of Labor', 
+                    impactedMinistry: ' Labor', 
                     points: -2
                 },
             ],
@@ -2615,54 +2615,54 @@ export const cards = [
         yes: 
             [
                 {
-                    impactedMinistry: 'Secretary of Defense', 
+                    impactedMinistry: ' Defense', 
                     points: 0
                 },
                 {
-                    impactedMinistry: 'Secretary of Education', 
+                    impactedMinistry: ' Education', 
                     points: +2
                 },
                 {
-                    impactedMinistry: 'Secretary of Health and Human Services', 
+                    impactedMinistry: ' Health and Human Services', 
                     points: +2
                 },
                 {
-                    impactedMinistry: 'Secretary of Commerce', 
+                    impactedMinistry: ' Commerce', 
                     points: -2
                 },
                 {
-                    impactedMinistry: 'Office of Management and Budget', 
+                    impactedMinistry: ' Management and Budget', 
                     points: -1
                 },
                 {
-                    impactedMinistry: 'Secretary of Labor', 
+                    impactedMinistry: ' Labor', 
                     points: +2
                 },
             ],
         no: 
             [
                 {
-                    impactedMinistry: 'Secretary of Defense', 
+                    impactedMinistry: ' Defense', 
                     points: 0
                 },
                 {
-                    impactedMinistry: 'Secretary of Education', 
+                    impactedMinistry: ' Education', 
                     points: -2
                 },
                 {
-                    impactedMinistry: 'Secretary of Health and Human Services', 
+                    impactedMinistry: ' Health and Human Services', 
                     points: -2
                 },
                 {
-                    impactedMinistry: 'Secretary of Commerce', 
+                    impactedMinistry: ' Commerce', 
                     points: -1
                 },
                 {
-                    impactedMinistry: 'Office of Management and Budget', 
+                    impactedMinistry: ' Management and Budget', 
                     points: +1
                 },
                 {
-                    impactedMinistry: 'Secretary of Labor', 
+                    impactedMinistry: ' Labor', 
                     points: -2
                 },
             ],
@@ -2673,54 +2673,54 @@ export const cards = [
         yes: 
             [
                 {
-                    impactedMinistry: 'Secretary of Defense', 
+                    impactedMinistry: ' Defense', 
                     points: 0
                 },
                 {
-                    impactedMinistry: 'Secretary of Education', 
+                    impactedMinistry: ' Education', 
                     points: +2
                 },
                 {
-                    impactedMinistry: 'Secretary of Health and Human Services', 
+                    impactedMinistry: ' Health and Human Services', 
                     points: +2
                 },
                 {
-                    impactedMinistry: 'Secretary of Commerce', 
+                    impactedMinistry: ' Commerce', 
                     points: -2
                 },
                 {
-                    impactedMinistry: 'Office of Management and Budget', 
+                    impactedMinistry: ' Management and Budget', 
                     points: -1
                 },
                 {
-                    impactedMinistry: 'Secretary of Labor', 
+                    impactedMinistry: ' Labor', 
                     points: +2
                 },
             ],
         no: 
             [
                 {
-                    impactedMinistry: 'Secretary of Defense', 
+                    impactedMinistry: ' Defense', 
                     points: 0
                 },
                 {
-                    impactedMinistry: 'Secretary of Education', 
+                    impactedMinistry: ' Education', 
                     points: -2
                 },
                 {
-                    impactedMinistry: 'Secretary of Health and Human Services', 
+                    impactedMinistry: ' Health and Human Services', 
                     points: -2
                 },
                 {
-                    impactedMinistry: 'Secretary of Commerce', 
+                    impactedMinistry: ' Commerce', 
                     points: -1
                 },
                 {
-                    impactedMinistry: 'Office of Management and Budget', 
+                    impactedMinistry: ' Management and Budget', 
                     points: +1
                 },
                 {
-                    impactedMinistry: 'Secretary of Labor', 
+                    impactedMinistry: ' Labor', 
                     points: -2
                 },
             ],
@@ -2731,54 +2731,54 @@ export const cards = [
         yes: 
             [
                 {
-                    impactedMinistry: 'Secretary of Defense', 
+                    impactedMinistry: ' Defense', 
                     points: 0
                 },
                 {
-                    impactedMinistry: 'Secretary of Education', 
+                    impactedMinistry: ' Education', 
                     points: +2
                 },
                 {
-                    impactedMinistry: 'Secretary of Health and Human Services', 
+                    impactedMinistry: ' Health and Human Services', 
                     points: +2
                 },
                 {
-                    impactedMinistry: 'Secretary of Commerce', 
+                    impactedMinistry: ' Commerce', 
                     points: -2
                 },
                 {
-                    impactedMinistry: 'Office of Management and Budget', 
+                    impactedMinistry: ' Management and Budget', 
                     points: -1
                 },
                 {
-                    impactedMinistry: 'Secretary of Labor', 
+                    impactedMinistry: ' Labor', 
                     points: +2
                 },
             ],
         no: 
             [
                 {
-                    impactedMinistry: 'Secretary of Defense', 
+                    impactedMinistry: ' Defense', 
                     points: 0
                 },
                 {
-                    impactedMinistry: 'Secretary of Education', 
+                    impactedMinistry: ' Education', 
                     points: -2
                 },
                 {
-                    impactedMinistry: 'Secretary of Health and Human Services', 
+                    impactedMinistry: ' Health and Human Services', 
                     points: -2
                 },
                 {
-                    impactedMinistry: 'Secretary of Commerce', 
+                    impactedMinistry: ' Commerce', 
                     points: -1
                 },
                 {
-                    impactedMinistry: 'Office of Management and Budget', 
+                    impactedMinistry: ' Management and Budget', 
                     points: +1
                 },
                 {
-                    impactedMinistry: 'Secretary of Labor', 
+                    impactedMinistry: ' Labor', 
                     points: -2
                 },
             ],
@@ -2789,54 +2789,54 @@ export const cards = [
         yes: 
             [
                 {
-                    impactedMinistry: 'Secretary of Defense', 
+                    impactedMinistry: ' Defense', 
                     points: 0
                 },
                 {
-                    impactedMinistry: 'Secretary of Education', 
+                    impactedMinistry: ' Education', 
                     points: +2
                 },
                 {
-                    impactedMinistry: 'Secretary of Health and Human Services', 
+                    impactedMinistry: ' Health and Human Services', 
                     points: +2
                 },
                 {
-                    impactedMinistry: 'Secretary of Commerce', 
+                    impactedMinistry: ' Commerce', 
                     points: -2
                 },
                 {
-                    impactedMinistry: 'Office of Management and Budget', 
+                    impactedMinistry: ' Management and Budget', 
                     points: -1
                 },
                 {
-                    impactedMinistry: 'Secretary of Labor', 
+                    impactedMinistry: ' Labor', 
                     points: +2
                 },
             ],
         no: 
             [
                 {
-                    impactedMinistry: 'Secretary of Defense', 
+                    impactedMinistry: ' Defense', 
                     points: 0
                 },
                 {
-                    impactedMinistry: 'Secretary of Education', 
+                    impactedMinistry: ' Education', 
                     points: -2
                 },
                 {
-                    impactedMinistry: 'Secretary of Health and Human Services', 
+                    impactedMinistry: ' Health and Human Services', 
                     points: -2
                 },
                 {
-                    impactedMinistry: 'Secretary of Commerce', 
+                    impactedMinistry: ' Commerce', 
                     points: -1
                 },
                 {
-                    impactedMinistry: 'Office of Management and Budget', 
+                    impactedMinistry: ' Management and Budget', 
                     points: +1
                 },
                 {
-                    impactedMinistry: 'Secretary of Labor', 
+                    impactedMinistry: ' Labor', 
                     points: -2
                 },
             ],
@@ -2847,54 +2847,54 @@ export const cards = [
         yes: 
             [
                 {
-                    impactedMinistry: 'Secretary of Defense', 
+                    impactedMinistry: ' Defense', 
                     points: 0
                 },
                 {
-                    impactedMinistry: 'Secretary of Education', 
+                    impactedMinistry: ' Education', 
                     points: +2
                 },
                 {
-                    impactedMinistry: 'Secretary of Health and Human Services', 
+                    impactedMinistry: ' Health and Human Services', 
                     points: +2
                 },
                 {
-                    impactedMinistry: 'Secretary of Commerce', 
+                    impactedMinistry: ' Commerce', 
                     points: -2
                 },
                 {
-                    impactedMinistry: 'Office of Management and Budget', 
+                    impactedMinistry: ' Management and Budget', 
                     points: -1
                 },
                 {
-                    impactedMinistry: 'Secretary of Labor', 
+                    impactedMinistry: ' Labor', 
                     points: +2
                 },
             ],
         no: 
             [
                 {
-                    impactedMinistry: 'Secretary of Defense', 
+                    impactedMinistry: ' Defense', 
                     points: 0
                 },
                 {
-                    impactedMinistry: 'Secretary of Education', 
+                    impactedMinistry: ' Education', 
                     points: -2
                 },
                 {
-                    impactedMinistry: 'Secretary of Health and Human Services', 
+                    impactedMinistry: ' Health and Human Services', 
                     points: -2
                 },
                 {
-                    impactedMinistry: 'Secretary of Commerce', 
+                    impactedMinistry: ' Commerce', 
                     points: -1
                 },
                 {
-                    impactedMinistry: 'Office of Management and Budget', 
+                    impactedMinistry: ' Management and Budget', 
                     points: +1
                 },
                 {
-                    impactedMinistry: 'Secretary of Labor', 
+                    impactedMinistry: ' Labor', 
                     points: -2
                 },
             ],

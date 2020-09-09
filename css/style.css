@@ -6,7 +6,7 @@
 }
 
 body {
-    width: 100vw;
+    
     height: 100vh;
     flex-direction: column;
     align-items: stretch;
@@ -116,9 +116,12 @@ aside {
     position: absolute;
     top: 20%;
     left: 65%;
-    padding: 10px;
     font-size: 2rem;
-    background-color: rgba(255, 255, 255, 0.4);
+}
+
+.shadow {
+    padding: 5px;
+    background-color: rgba(255, 255, 255, 0.7);
     box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.65);
 }
 

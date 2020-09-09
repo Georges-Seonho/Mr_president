@@ -25,12 +25,12 @@ let labourImg = './ressources/mario.gif';
 
 
 // Ministeries 
-const army = new Ministry('Secretary of Defense', armyImg);
-const solidarity = new Ministry('Secretary of Education', socialImg);
-const health = new Ministry('Secretary of Health and Human Services', healthImg);
-const commerce = new Ministry('Secretary of Commerce', commerceImg);
-const budgetMinistry = new Ministry('Office of Management and Budget', budgetMiImg);
-const labour = new Ministry('Secretary of Labor', labourImg);
+const army = new Ministry(' Defense', armyImg);
+const solidarity = new Ministry(' Education', socialImg);
+const health = new Ministry(' Health and Human Services', healthImg);
+const commerce = new Ministry(' Commerce', commerceImg);
+const budgetMinistry = new Ministry(' Management and Budget', budgetMiImg);
+const labour = new Ministry(' Labor', labourImg);
 
 const playingMinistary = [army, solidarity, health, commerce, budgetMinistry, labour];
 
@@ -40,16 +40,11 @@ const currentPlayer = new Player(/*prompt('Enter Your name please')*/ 'lol');
 let currentCards = [...cards];
 
 // Features 
-const progressBarEffect = () => {
-    console.log('Hello')
-}
-
 const displayChoices = () => {
     gobtn.style.display="none";
-    progressBar.style.visibility="visible";
-    progressBar.innerHTML = ' <span class="bar"><span class="progress"></span></span>'
     choices.innerHTML='<div class="yes">YES</div><div class="no">NO</div>';
     cardHTML.style.backgroundColor = '#FFF';
+    displayBar();
     displayCard();
 };
 
@@ -68,8 +63,15 @@ const resetGame = () => {
     gobtn.style.display="";
     choices.innerHTML='';
     cardHTML.style.backgroundColor = '';
+    progressBar.style.visibility="hiden";
+    progressBar.innerHTML = ''
     startGame();
 };
+
+const displayBar = () => {
+    progressBar.style.visibility="visible";
+    progressBar.innerHTML = ' <span class="bar"><span class="progress"></span></span>'
+}
 
 const displayInfos = () => {
     scoreHTML.innerHTML = '';
@@ -102,7 +104,7 @@ let currentCard = displayCard();
 const startGame = () => {
     displayMinistries();
     displayInfos();
-    cardHTML.innerHTML='<img src="../ressources/president.gif" alt="president making choices" class="logo">';
+    cardHTML.innerHTML='<img src="./ressources/president.gif" alt="president making choices" class="logo">';
 };
 
 const isDone = () => {
@@ -117,19 +119,31 @@ const isDone = () => {
     };
 };
 
+const changeCard = () => {
+    currentPlayer.numOfTurn += 1;
+    currentCards.splice(randomNum, 1);
+    currentCard = displayCard();
+    displayBar();
+    displayMinistries();
+    displayInfos();
+    isDone();
+}
+
+const progressBarEffect = () => {
+    playingMinistary.forEach(ministry => {
+        ministry.happiness -=1;
+    });
+    currentPlayer.budget -= 1000;
+    changeCard();
+}
+
 const handleChoice = (evt) => {
     const turnOfEvent = (evt.target === choices.querySelector('.yes')) ? currentCard.yes : currentCard.no;
-    const ministriesCards = ministriesContainer.querySelectorAll('.ministry');
     playingMinistary.forEach(ministry => {
         for(let i=0; i<playingMinistary.length; i++) if(ministry.name === turnOfEvent[i].impactedMinistry) ministry.happiness += turnOfEvent[i].points;
     });
     if(currentCard.price && turnOfEvent === currentCard.yes) currentPlayer.budget += currentCard.price;
-    currentPlayer.numOfTurn += 1;
-    currentCards.splice(randomNum, 1);
-    currentCard = displayCard();
-    displayMinistries();
-    displayInfos();
-    isDone();
+    changeCard();
 };
 
 startGame();
