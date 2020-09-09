@@ -37,7 +37,7 @@ const playingMinistary = [army, solidarity, health, commerce, budgetMinistry, la
 
 
 //INFOS
-const currentPlayer = new Player(/*prompt('Enter Your last name please :')*/ 'plop');
+const currentPlayer = new Player(prompt('Enter Your last name please :'));
 logoName.innerText += ` ${currentPlayer.name}`;
 let currentCards = [...cards];
 
@@ -51,9 +51,11 @@ const displayChoices = () => {
 };
 
 const playMusic = () => {
+    let musicContent = '<div id="sub-music"><img  src="./ressources/music0n.gif" alt="music ON gif"><audio autoplay src="./ressources/Pickle Rick! [8 Bit Tribute to Rick and Morty & Chetreo] - 8 Bit Universe.mp3"></audio><span>Sound</span></div>';
+    let noMusicContent = '<div id="sub-music"><img  src="./ressources/musicof.webp" alt="music ON gif"><span>Sound</span></div>';
     musicIcon.classList.toggle('plop');
-    if(musicIcon.className === 'plop') musicIcon.innerHTML='<img src="./ressources/music0n.gif" alt="music ON gif"><audio autoplay src="./ressources/Pickle Rick! [8 Bit Tribute to Rick and Morty & Chetreo] - 8 Bit Universe.mp3"></audio>';
-    else musicIcon.innerHTML='<img  src="./ressources/musicof.webp" alt="music ON gif">';  
+    if(musicIcon.className === 'plop') musicIcon.innerHTML= noMusicContent;
+    else musicIcon.innerHTML = musicContent;  
 }; 
 
 // Functions 

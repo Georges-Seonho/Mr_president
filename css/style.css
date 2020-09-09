@@ -22,7 +22,7 @@ body {
 #nav {
     justify-content: space-around;
     align-items: center;
-    height: 40px;
+    height: 50px;
     border-bottom: solid 5px;
     padding: 30px 10px;
     color: aliceblue;
@@ -61,7 +61,7 @@ body {
     align-items: center;
     padding: 20px;
     max-width: 190px;
-    min-height: 200px;
+    min-height: 300px;
     background-color: #FFF;
     border-radius: 2%;
     box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.65);
@@ -131,8 +131,16 @@ aside {
     cursor: pointer;
 }
 
-#musicIcon > img {
-    width: 56px;
+#sub-music {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 0.5rem;
+  padding-bottom: 2px;
+}
+
+#sub-music > img {
+    width: 49px;
 }
 
 /* ----------------------------------------------
@@ -252,77 +260,86 @@ aside {
 /* MEDIA TABLETTE VIEW */
 @media (max-width: 1100px) { 
   * {
-    box-sizing: border-box;
-    font-family: 'Share Tech Mono', monospace;
-    list-style: none;
-    margin: 0;
     font-size: 15px;
   }
 
   #ministries {
-    width: 70%;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    width: 70%;
     grid-gap: 10px;
+  }
+
+  #ministries > div {
+    min-height: 100px;
   }
 
   #cardcontainer {
     max-height: 300px;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-    text-align: center;
-    font-size: 1.5rem;
-    padding: 20px;
-    background-color: #67AAF9;
-    border-radius: 2%;
-    max-width: 400px;
-    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.65);
   }
 
   aside {
-    position: absolute;
-    top: 20%;
     left: 75%;
-    font-size: 2rem;
   }
 }
 
 /* MEDIA PHONE VIEW */
-@media (max-width: 1100px) { 
+@media (max-width: 857px) { 
   * {
-    box-sizing: border-box;
-    font-family: 'Share Tech Mono', monospace;
-    list-style: none;
-    margin: 0;
-    font-size: 15px;
+    font-size: 10px;
+  }
+
+  #nav {
+    padding-left: 30px;
+    padding-right: 5px;
+    justify-content: center;
+  }
+
+  #nav > ul {
+    justify-content: space-between;
+  }
+
+  .main {
+    flex-direction: column-reverse;
+    align-items: center;
   }
 
   #ministries {
-    width: 70%;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
-    grid-gap: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    width: 100%;
+    grid-gap: 3px;
+  }
+
+  #ministries > div {
+    max-width: 100px;
+    height: 100px;
+  }
+
+  .logo {
+    width: 100px;
   }
 
   #cardcontainer {
-    max-height: 300px;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-    text-align: center;
-    font-size: 1.5rem;
-    padding: 20px;
-    background-color: #67AAF9;
-    border-radius: 2%;
-    max-width: 400px;
-    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.65);
+    min-height: 40vh;
+  }
+
+  #cardcontainer > .card {
+    margin-bottom: 3px;
+    max-width: 175px;
+  }
+
+  .yes, .no {
+    padding: 5px;
+    margin: 3px;
+  }
+
+  h2 {
+    order: 1;
   }
 
   aside {
-    position: absolute;
-    top: 20%;
+    top: 80%;
     left: 75%;
-    font-size: 2rem;
   }
 }
