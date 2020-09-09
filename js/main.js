@@ -13,7 +13,7 @@ const choices = cardContainer.querySelector('.choices');
 const ministriesContainer = document.getElementById('ministries');
 const gobtn = document.querySelector('.gobtn');
 const musicIcon = document.getElementById('musicIcon');
-const timer = document.getElementById('timer');
+const progressBar = document.querySelector('.progress-bar');
 
 // Images references
 let armyImg = '../ressources/Phatman_x4.gif';
@@ -40,8 +40,14 @@ const currentPlayer = new Player(/*prompt('Enter Your name please')*/ 'lol');
 let currentCards = [...cards];
 
 // Features 
+const progressBarEffect = () => {
+    console.log('Hello')
+}
+
 const displayChoices = () => {
     gobtn.style.display="none";
+    progressBar.style.visibility="visible";
+    progressBar.innerHTML = ' <span class="bar"><span class="progress"></span></span>'
     choices.innerHTML='<div class="yes">YES</div><div class="no">NO</div>';
     cardHTML.style.backgroundColor = '#FFF';
     displayCard();
@@ -111,19 +117,6 @@ const isDone = () => {
     };
 };
 
-// var timerId = setInterval(countdown, 1000);
-
-function countdown() {
-    let timeLeft = 30;
-    if (timeLeft == -1) {
-        clearTimeout(timerId);
-        doSomething();
-    } else {
-        elem.innerHTML = timeLeft + ' seconds remaining';
-        timeLeft--;
-    }
-}
-
 const handleChoice = (evt) => {
     const turnOfEvent = (evt.target === choices.querySelector('.yes')) ? currentCard.yes : currentCard.no;
     const ministriesCards = ministriesContainer.querySelectorAll('.ministry');
@@ -145,3 +138,4 @@ gobtn.onclick = displayChoices;
 choices.onclick = handleChoice;
 playAgainBtn.onclick = resetGame;
 musicIcon.onclick = playMusic;
+progressBar.onanimationend = progressBarEffect;

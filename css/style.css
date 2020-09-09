@@ -90,7 +90,7 @@ body {
 }
 
 #cardcontainer > .card {
-    margin-bottom: 60px;
+    margin-bottom: 30px;
     height: 50%;
     padding: 10px;
 }
@@ -181,23 +181,75 @@ aside {
               transform: translate(0);
     }
     20% {
-      -webkit-transform: translate(2px, -2px);
-              transform: translate(2px, -2px);
+      -webkit-transform: translate(3px, -3px);
+              transform: translate(3px, -3px);
     }
     40% {
-      -webkit-transform: translate(2px, 2px);
-              transform: translate(2px, 2px);
+      -webkit-transform: translate(3px, 3px);
+              transform: translate(3px, 3px);
     }
     60% {
-      -webkit-transform: translate(-2px, 2px);
-              transform: translate(-2px, 2px);
+      -webkit-transform: translate(-3px, 3px);
+              transform: translate(-3px, 3px);
     }
     80% {
-      -webkit-transform: translate(-2px, -2px);
-              transform: translate(-2px, -2px);
+      -webkit-transform: translate(-3px, -3px);
+              transform: translate(-3px, -3px);
     }
     100% {
       -webkit-transform: translate(0);
               transform: translate(0);
     }
   }
+
+  /* LOADING BAR */
+/*  Animation =============================================
+    Edit these at random intervals to change the animation. */
+@keyframes loader {
+
+	0% {
+		width: 100%;
+	}
+  75% {
+    background: rgba(255, 1, 1, 1);
+    }
+	100% {
+		width: 0%;
+    background: rgba(255, 1, 1, 1);
+	}
+
+}
+
+ /* Bar ============================================ */
+.progress-bar {
+	border-radius: 60px;
+	overflow: hidden;
+    width: 100%;
+    margin-bottom: 10px;
+    visibility: hidden;
+}
+
+.progress-bar span{
+	display: block;
+}
+
+.bar {
+  background: rgba(0,0,0,0.075);
+}
+
+.progress {
+  animation: loader 15s ease forwards;
+  /* Change the animation fill mode 'infinite' to 'forwards' to stop the animation from repeating. */
+  background: #75b800;
+  color: #fff;
+  padding: 5px;
+  width: 0;
+}
+
+/* MEDIA PHONE AND TABLETTE VIEW */
+
+/*     
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+    grid-gap: 10px;
+*/
