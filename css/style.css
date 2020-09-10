@@ -80,6 +80,7 @@ body {
   margin: 0 auto;
   position: fixed;
   width: 50%;
+  max-height: 80%;
   flex-direction: column;
   justify-content: center;
   align-items: center;
