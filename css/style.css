@@ -76,16 +76,24 @@ body {
     width: 100%;
 }
 
-.final-div {
-  margin: auto 0;
+.info-div {
+  margin: 0 auto;
   position: fixed;
-  top: 155px;
+  width: 50%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  top: 100px;
   right: 0;
   left: 0;
 }
 
-.final-div img {
-  max-width: 100vw;
+.info-div img {
+  width: 100%;
+}
+
+.largeText {
+  font-size: 1.5rem;
 }
 
 .reset-btn {

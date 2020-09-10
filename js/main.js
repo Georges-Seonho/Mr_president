@@ -15,8 +15,9 @@ const ministriesContainer = document.getElementById('ministries');
 const gobtn = document.querySelector('.gobtn');
 const musicIcon = document.getElementById('musicIcon');
 const progressBar = document.querySelector('.progress-bar');
-const finalDiv = document.querySelector('.final-div');
-const mainHTML = document.querySelector('.main')
+const infoDiv = document.querySelector('.info-div');
+const mainHTML = document.querySelector('.main');
+const budgetContainer = document.querySelector('.budget-container');
 
 // Images references
 let armyImg = './ressources/Phatman_x4.gif';
@@ -63,8 +64,8 @@ const playMusic = () => {
 // Functions 
 const resetGame = () => {
     mainHTML.style.display='flex';
-    budgetHTML.style.display ='';
-    finalDiv.innerHTML = '';
+    budgetContainer.style.display ='block';
+    infoDiv.innerHTML = '';
     currentPlayer.numOfTurn = 0;
     currentPlayer.budget = 100000;
     playingMinistary.forEach(ministry => ministry.happiness = 10);
@@ -110,6 +111,16 @@ const displayCard = () => {
 };
 let currentCard = displayCard();
 
+const gameIntro = () => {
+    infoDiv.innerHTML += `<p class="shadow largeText">Dear President ${currentPlayer.name}, 
+    <br><br> As the president, your mission, if you accept it, is to keep your government happy with the choices you make. Choose between YES or NO and according to your decision some ministers will be happy and some not. You lose when any one of the ministers' happy points become 0 or if you run out of budget. 
+    <br><br> Best of luck, 
+    <br><br> PS : You only have 15 secondes to make your decisions.
+    <br><br> PPS : Click anywhere to start playing.</p>`;
+    mainHTML.style.display ='none';
+    budgetContainer.style.display ='none';
+}
+
 const startGame = () => {
     displayMinistries();
     displayInfos();
@@ -120,14 +131,14 @@ const isDone = () => {
     console.log(currentCards.length);
     if(currentPlayer.bestScore < currentPlayer.numOfTurn) currentPlayer.bestScore = currentPlayer.numOfTurn;
     if(currentCards.length < 1 && currentPlayer.budget > 0) {
-        finalDiv.innerHTML += '<img class="grey" src="./ressources/wick.gif"><h1 class="reset-btn shadow">NICE! Wanna play again?</h1>';
+        infoDiv.innerHTML += '<img class="grey" src="./ressources/wick.gif"><h1 class="reset-btn shadow">NICE! Wanna play again?</h1>';
         mainHTML.style.display ='none';
-        budgetHTML.style.display ='none';
+        budgetContainer.style.display ='none';
     }
     else if(budget < 0 || playingMinistary.some(elm => elm.happiness < 1)) {
-        finalDiv.innerHTML += '<img src="./ressources/lost.gif"><h1 class="reset-btn shadow">I mean you can do better... Play again?</h1>';
+        infoDiv.innerHTML += '<img src="./ressources/lost.gif"><h1 class="reset-btn shadow">I mean you can do better... Play again?</h1>';
         mainHTML.style.display ='none';
-        budgetHTML.style.display ='none';
+        budgetContainer.style.display ='none';
     };
 };
 
@@ -158,11 +169,12 @@ const handleChoice = (evt) => {
     changeCard();
 };
 
-startGame();
+
+gameIntro();
 // Event listeners
 gobtn.onclick = displayChoices;
 choices.onclick = handleChoice;
 playAgainBtn.onclick = resetGame;
 musicIcon.onclick = playMusic;
 progressBar.onanimationend = progressBarEffect;
-finalDiv.onclick = resetGame;
+infoDiv.onclick = resetGame;
