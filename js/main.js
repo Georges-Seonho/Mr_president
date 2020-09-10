@@ -40,7 +40,8 @@ const playingMinistary = [army, solidarity, health, commerce, budgetMinistry, la
 
 
 //INFOS
-const currentPlayer = new Player(prompt('Enter Your last name please :'));
+let input = prompt('Enter Your last name please :');
+const currentPlayer = new Player( input ? input : 'Toto');
 logoName.innerText += ` ${currentPlayer.name}`;
 let currentCards = [...cards];
 
@@ -115,8 +116,8 @@ const gameIntro = () => {
     infoDiv.innerHTML += `<p class="shadow largeText">Dear President ${currentPlayer.name}, 
     <br><br> As the president, your mission, if you accept it, is to keep your government happy with the choices you make. Choose between YES or NO and according to your decision some ministers will be happy and some not. You lose when any one of the ministers' happy points become 0 or if you run out of budget. 
     <br><br> Best of luck, 
-    <br><br> PS : You only have 15 secondes to make your decisions.
-    <br><br> PPS : Click anywhere to start playing.</p>`;
+    <br><br> PS : You only have 30 secondes to make your decisions.
+    <br><br> PPS : Click on this text to start playing.</p>`;
     mainHTML.style.display ='none';
     budgetContainer.style.display ='none';
 }
@@ -128,14 +129,13 @@ const startGame = () => {
 };
 
 const isDone = () => {
-    console.log(currentCards.length);
     if(currentPlayer.bestScore < currentPlayer.numOfTurn) currentPlayer.bestScore = currentPlayer.numOfTurn;
     if(currentCards.length < 1 && currentPlayer.budget > 0) {
         infoDiv.innerHTML += '<img class="grey" src="./ressources/wick.gif"><h1 class="reset-btn shadow">NICE! Wanna play again?</h1>';
         mainHTML.style.display ='none';
         budgetContainer.style.display ='none';
     }
-    else if(budget < 0 || playingMinistary.some(elm => elm.happiness < 1)) {
+    else if(budget <= 0 || playingMinistary.some(elm => elm.happiness < 1)) {
         infoDiv.innerHTML += '<img src="./ressources/lost.gif"><h1 class="reset-btn shadow">I mean you can do better... Play again?</h1>';
         mainHTML.style.display ='none';
         budgetContainer.style.display ='none';
