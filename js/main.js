@@ -15,6 +15,8 @@ const ministriesContainer = document.getElementById('ministries');
 const gobtn = document.querySelector('.gobtn');
 const musicIcon = document.getElementById('musicIcon');
 const progressBar = document.querySelector('.progress-bar');
+const finalDiv = document.querySelector('.final-div');
+const mainHTML = document.querySelector('.main')
 
 // Images references
 let armyImg = './ressources/Phatman_x4.gif';
@@ -60,6 +62,9 @@ const playMusic = () => {
 
 // Functions 
 const resetGame = () => {
+    mainHTML.style.display='flex';
+    budgetHTML.style.display ='';
+    finalDiv.innerHTML = '';
     currentPlayer.numOfTurn = 0;
     currentPlayer.budget = 100000;
     playingMinistary.forEach(ministry => ministry.happiness = 10);
@@ -68,7 +73,7 @@ const resetGame = () => {
     choices.innerHTML='';
     cardHTML.style.backgroundColor = '';
     progressBar.style.visibility="hiden";
-    progressBar.innerHTML = ''
+    progressBar.innerHTML = '';
     startGame();
 };
 
@@ -89,7 +94,7 @@ const displayInfos = () => {
 const displayMinistries = () => {
     ministriesContainer.innerHTML = '';
     playingMinistary.forEach(ministry => {
-        ministriesContainer.innerHTML += `<div class="ministry"><img src="${ministry.icon}" class="icons" ><h3>${ministry.name}</h3><p>${ministry.happiness}</p></div>` ;
+        ministriesContainer.innerHTML += `<div class="ministry"><h1>${ministry.happiness}</h1><img src="${ministry.icon}" class="icons" ><h3>${ministry.name}</h3></div>` ;
     }); 
     let ministriesCards = ministriesContainer.querySelectorAll('.ministry');
     playingMinistary.forEach((ministry, i) => (ministry.happiness <= 3) ? ministriesCards[i].classList.add('vibrate-2') : ministriesCards[i].classList.remove('vibrate-2'));
@@ -112,25 +117,28 @@ const startGame = () => {
 };
 
 const isDone = () => {
+    console.log(currentCards.length);
     if(currentPlayer.bestScore < currentPlayer.numOfTurn) currentPlayer.bestScore = currentPlayer.numOfTurn;
-    if(currentCards.length === 0 && currentPlayer.budget > 0) {
-        resetGame();
-        alert('YOU WIN!!!');
+    if(currentCards.length < 1 && currentPlayer.budget > 0) {
+        finalDiv.innerHTML += '<img class="grey" src="./ressources/wick.gif"><h1 class="reset-btn shadow">NICE! Wanna play again?</h1>';
+        mainHTML.style.display ='none';
+        budgetHTML.style.display ='none';
     }
     else if(budget < 0 || playingMinistary.some(elm => elm.happiness < 1)) {
-        resetGame();
-        alert('YOU LOST!!!');
+        finalDiv.innerHTML += '<img src="./ressources/lost.gif"><h1 class="reset-btn shadow">I mean you can do better... Play again?</h1>';
+        mainHTML.style.display ='none';
+        budgetHTML.style.display ='none';
     };
 };
 
 const changeCard = () => {
     currentPlayer.numOfTurn += 1;
     currentCards.splice(randomNum, 1);
+    isDone();
     currentCard = displayCard();
     displayBar();
     displayMinistries();
     displayInfos();
-    isDone();
 }
 
 const progressBarEffect = () => {
@@ -157,3 +165,4 @@ choices.onclick = handleChoice;
 playAgainBtn.onclick = resetGame;
 musicIcon.onclick = playMusic;
 progressBar.onanimationend = progressBarEffect;
+finalDiv.onclick = resetGame;
